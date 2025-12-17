@@ -1,0 +1,203 @@
+/* 記事全体 */
+.post-body {
+  font-family: 'Noto Sans JP', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #2c2c2c;
+  padding: 3rem 2rem;
+  background-color: #ffffff;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+/* 段落 */
+.post-body p {
+  margin-bottom: 1.8rem;
+  word-break: break-word;
+}
+
+/* 見出し */
+.post-body h2 {
+  font-size: 1.8rem;
+  border-left: 5px solid #004b7c;
+  padding-left: 1rem;
+  color: #004b7c;
+  font-weight: 600;
+  margin: 3rem 0 1.5rem;
+}
+
+.post-body h3 {
+  font-size: 1.4rem;
+  border-left: 4px solid #ccc;
+  padding-left: 0.8rem;
+  color: #333;
+  font-weight: 600;
+  margin: 2.5rem 0 1rem;
+}
+
+.post-body h4 {
+  font-size: 1.2rem;
+  color: #555;
+  font-weight: 600;
+  margin: 2rem 0 0.8rem;
+}
+
+/* 画像 */
+.post-body img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin: 1.5rem auto;
+  display: block;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* リスト */
+.post-body ul {
+  padding-left: 1.2rem;
+  margin-bottom: 2rem;
+  list-style: none;
+}
+
+.post-body ul li {
+  position: relative;
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  font-size: 15.5px;
+}
+
+.post-body ul li::before {
+  content: '✔';
+  position: absolute;
+  left: 0;
+  color: #27ae60;
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+/* FAQ風デザイン */
+.post-body h3.faq-question::before {
+  content: "Q.";
+  color: #004b7c;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.post-body h3.faq-question + p::before {
+  content: "A.";
+  color: #27ae60;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+/* 最後のまとめ */
+.post-body h2:last-of-type {
+  border-color: #27ae60;
+  color: #27ae60;
+}
+
+/* 間隔調整 */
+.post-body > *:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+/* レスポンシブ */
+@media screen and (max-width: 768px) {
+  .post-body {
+    padding: 2rem 1rem;
+    font-size: 15px;
+  }
+
+  .post-body h2 {
+    font-size: 1.5rem;
+  }
+
+  .post-body h3 {
+    font-size: 1.25rem;
+  }
+
+  .post-body h4 {
+    font-size: 1.1rem;
+  }
+
+  .post-body ul li {
+    font-size: 15px;
+  }
+}
+/* テーブルのスタイル */
+.post-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  font-size: 15.5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  background-color: #fafafa;
+}
+
+/* ヘッダー */
+.post-body table thead th {
+  background-color: #004b7c;
+  color: #fff;
+  font-weight: bold;
+  text-align: left;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+}
+
+/* ボディセル */
+.post-body table td {
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  color: #333;
+  vertical-align: top;
+}
+
+/* 偶数行に背景色 */
+.post-body table tbody tr:nth-child(even) {
+  background-color: #f2f8fc;
+}
+
+/* レスポンシブ対応 */
+@media screen and (max-width: 768px) {
+  .post-body table,
+  .post-body thead,
+  .post-body tbody,
+  .post-body th,
+  .post-body td,
+  .post-body tr {
+    display: block;
+  }
+
+  .post-body thead {
+    display: none;
+  }
+
+  .post-body table tr {
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0.5rem;
+    background: #fff;
+  }
+
+  .post-body table td {
+    position: relative;
+    padding-left: 50%;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid #eee;
+  }
+
+  .post-body table td::before {
+    position: absolute;
+    top: 0.8rem;
+    left: 1rem;
+    width: 45%;
+    padding-right: 0.5rem;
+    white-space: nowrap;
+    font-weight: bold;
+    color: #004b7c;
+    content: attr(data-label);
+  }
+}
