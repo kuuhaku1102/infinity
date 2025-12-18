@@ -1,0 +1,340 @@
+/* 広告実績ページ専用CSS */
+
+/* ヒーローセクション */
+.ad-results-hero {
+  padding: 80px 0 60px;
+  background: #f8f9fa;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.ad-results-hero-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.ad-results-svg-title {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 0 auto 30px;
+  display: block;
+}
+
+.ad-results-subtitle {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.ad-results-subtitle .highlight-text {
+  color: #667eea;
+  position: relative;
+  display: inline-block;
+}
+
+.ad-results-subtitle .highlight-text::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  animation: underlineExpand 0.8s ease-out forwards;
+  animation-delay: 2.5s;
+  transform-origin: left;
+  transform: scaleX(0);
+}
+
+@keyframes underlineExpand {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.ad-results-lead {
+  font-size: 1rem;
+  color: #4a5568;
+  line-height: 2;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* 実績セクション */
+.case-study-section {
+  padding: 80px 0;
+  background: #ffffff;
+}
+
+.case-study-filter {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+
+.filter-btn {
+  padding: 12px 30px;
+  background: #ffffff;
+  border: 2px solid #e2e8f0;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #4a5568;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.filter-btn::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  transform: translate(-50%, -50%);
+  transition: width 0.3s ease, height 0.3s ease;
+  z-index: 0;
+}
+
+.filter-btn:hover::before,
+.filter-btn.active::before {
+  width: 300px;
+  height: 300px;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  color: #ffffff;
+  border-color: #667eea;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.filter-btn span {
+  position: relative;
+  z-index: 1;
+}
+
+/* 実績カードグリッド */
+.case-study-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1024px) {
+  .case-study-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .case-study-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.case-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.case-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(102, 126, 234, 0.15);
+  border-color: #667eea;
+}
+
+.case-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.case-card-thumb {
+  position: relative;
+  width: 100%;
+  padding-top: 66.67%; /* 3:2 aspect ratio */
+  overflow: hidden;
+  background: #f8f9fa;
+}
+
+.case-card-thumb img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.case-card:hover .case-card-thumb img {
+  transform: scale(1.1);
+}
+
+.case-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.9) 0%, rgba(118, 75, 162, 0.9) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.case-card:hover .case-card-overlay {
+  opacity: 1;
+}
+
+.view-detail {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.view-detail i {
+  transition: transform 0.3s ease;
+}
+
+.case-card:hover .view-detail i {
+  transform: translateX(5px);
+}
+
+.case-card-body {
+  padding: 20px;
+}
+
+.case-tag {
+  display: inline-block;
+  padding: 6px 16px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 20px;
+  margin-bottom: 12px;
+}
+
+.case-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 10px;
+  line-height: 1.4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.case-date {
+  font-size: 0.9rem;
+  color: #718096;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.case-date i {
+  color: #667eea;
+}
+
+/* More Viewボタン */
+.more-button-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.more-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 40px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.more-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(102, 126, 234, 0.4);
+}
+
+.more-button i {
+  transition: transform 0.3s ease;
+}
+
+.more-button:hover i {
+  transform: translateY(3px);
+}
+
+/* 投稿なしメッセージ */
+.no-posts {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #718096;
+  padding: 60px 20px;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+  .ad-results-hero {
+    padding: 60px 0 40px;
+  }
+  
+  .ad-results-svg-title {
+    max-width: 600px;
+  }
+  
+  .ad-results-subtitle {
+    font-size: 1.4rem;
+  }
+  
+  .ad-results-lead {
+    font-size: 0.95rem;
+  }
+  
+  .case-study-section {
+    padding: 60px 0;
+  }
+  
+  .case-study-filter {
+    gap: 10px;
+  }
+  
+  .filter-btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}

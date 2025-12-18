@@ -31,6 +31,7 @@
 
 	<!-- Ad Page Sections -->
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/ad-page-sections.css">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/ad-results.css">
 
 	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
 
