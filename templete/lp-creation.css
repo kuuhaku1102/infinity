@@ -128,15 +128,17 @@
   line-height: 1.5;
 }
 
-/* 6種類のLPタイプセクション - コンパクト版 */
+/* /* 6種類のLPサービス詳細セクション */
 .lp-service-types {
-  margin: 80px 0;
+  margin: 80px auto;
+  max-width: 1200px;
+  padding: 0 40px;
 }
 
 .lp-service-types h3 {
   text-align: center;
-  margin-bottom: 60px;
-  font-size: 32px;
+  margin-bottom: 50px;
+  font-size: 28px;
   font-weight: bold;
   color: #2d3748;
 }
@@ -144,15 +146,16 @@
 .lp-types-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  margin-bottom: 40px;
+  gap: 25px;
+  margin-bottom: 30px;
+};
 }
 
 .lp-type-card-compact {
   background: white;
-  border-radius: 20px;
-  padding: 30px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -181,21 +184,21 @@
 }
 
 .lp-type-icon {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border-radius: 15px;
+  border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 28px;
-  margin-bottom: 20px;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  font-size: 24px;
+  margin-bottom: 16px;
+  box-shadow: 0 3px 12px rgba(102, 126, 234, 0.25);
 }
 
 .lp-type-card-compact h4 {
-  margin: 0 0 10px 0;
-  font-size: 22px;
+  margin: 0 0 8px 0;
+  font-size: 18px;
   color: #2d3748;
   font-weight: bold;
 }
@@ -203,10 +206,10 @@
 .lp-type-desc {
   color: #667eea;
   font-weight: 600;
-  font-size: 14px;
-  line-height: 1.6;
-  margin-bottom: 20px;
-  min-height: 42px;
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  min-height: 38px;
 }
 
 .lp-type-tags {
@@ -239,13 +242,13 @@
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   border: none;
-  padding: 12px 20px;
-  border-radius: 10px;
-  font-size: 14px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 13px;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 3px 12px rgba(102, 126, 234, 0.25);
 }
 
 .lp-type-toggle:hover {
