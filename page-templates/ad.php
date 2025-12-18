@@ -257,68 +257,77 @@ get_header();
   </div>
 </section>
 
-<!-- 自動化PDCAの仕組みセクション -->
+<!-- 自動化PDCAの仕組みセクション（コンパクト版） -->
 <section class="automated-pdca-section">
   <div class="infinity-container">
-    <h3 class="section-title animate-on-scroll fade-in-up">Meta API × Pythonで実現する自動化PDCA</h3>
+    <h3 class="section-title animate-on-scroll fade-in-up">
+      <span class="animated-text">Meta API × Python</span>で実現する自動化PDCA
+    </h3>
     <p class="section-subtitle animate-on-scroll fade-in-up delay-2">
       広告運用の<strong class="infinity-highlight">90%を自動化</strong>し、戦略立案に集中できる環境を提供します。
     </p>
 
-    <div class="pdca-flow">
-      <div class="pdca-step">
-        <div class="pdca-icon"><i class="fas fa-download"></i></div>
+    <div class="pdca-compact-grid">
+      <div class="pdca-compact-card animate-on-scroll fade-in-up delay-1">
+        <div class="pdca-compact-icon">
+          <i class="fas fa-download"></i>
+        </div>
         <h4>データ自動収集</h4>
-        <p>Meta APIを利用した広告パフォーマンスデータの自動取得</p>
-        <ul>
-          <li>クリエイティブ別CV/CPC/CTR</li>
-          <li>時間帯・ターゲット別反応</li>
-        </ul>
+        <p>Meta APIで広告データを自動取得</p>
       </div>
-      <div class="pdca-arrow"><i class="fas fa-arrow-down"></i></div>
-      <div class="pdca-step">
-        <div class="pdca-icon"><i class="fas fa-chart-bar"></i></div>
+
+      <div class="pdca-compact-arrow">
+        <i class="fas fa-arrow-right"></i>
+      </div>
+
+      <div class="pdca-compact-card animate-on-scroll fade-in-up delay-2">
+        <div class="pdca-compact-icon">
+          <i class="fas fa-chart-bar"></i>
+        </div>
         <h4>自動分析</h4>
-        <p>Pythonによるパフォーマンス分析と評価</p>
-        <ul>
-          <li>パターン抽出と相関分析</li>
-          <li>KPI基準による自動判定</li>
-        </ul>
+        <p>Pythonでパフォーマンス分析</p>
       </div>
-      <div class="pdca-arrow"><i class="fas fa-arrow-down"></i></div>
-      <div class="pdca-step">
-        <div class="pdca-icon"><i class="fas fa-cogs"></i></div>
+
+      <div class="pdca-compact-arrow">
+        <i class="fas fa-arrow-right"></i>
+      </div>
+
+      <div class="pdca-compact-card animate-on-scroll fade-in-up delay-3">
+        <div class="pdca-compact-icon">
+          <i class="fas fa-cogs"></i>
+        </div>
         <h4>自動最適化</h4>
-        <p>成果に基づく広告の自動調整</p>
-        <ul>
-          <li>低CV広告の自動停止</li>
-          <li>予算配分の自動調整</li>
-        </ul>
+        <p>低CV広告を自動停止・調整</p>
       </div>
-      <div class="pdca-arrow"><i class="fas fa-arrow-down"></i></div>
-      <div class="pdca-step">
-        <div class="pdca-icon"><i class="fas fa-file-alt"></i></div>
+
+      <div class="pdca-compact-arrow">
+        <i class="fas fa-arrow-right"></i>
+      </div>
+
+      <div class="pdca-compact-card animate-on-scroll fade-in-up delay-4">
+        <div class="pdca-compact-icon">
+          <i class="fas fa-file-alt"></i>
+        </div>
         <h4>自動レポート</h4>
-        <p>分析結果の自動可視化と配信</p>
-        <ul>
-          <li>日次/週次レポート自動配信</li>
-          <li>次アクション提案</li>
-        </ul>
+        <p>日次/週次レポート自動配信</p>
       </div>
     </div>
 
-    <div class="pdca-benefits">
-      <div class="benefit-card">
-        <div class="benefit-icon"><i class="fas fa-clock"></i></div>
-        <h5>運用工数90%削減</h5>
+    <div class="pdca-benefits-compact">
+      <div class="benefit-compact-item animate-on-scroll scale-in delay-1">
+        <div class="benefit-compact-icon"><i class="fas fa-clock"></i></div>
+        <div class="benefit-compact-number" data-target="90">0<span>%</span></div>
+        <div class="benefit-compact-label">運用工数削減</div>
       </div>
-      <div class="benefit-card">
-        <div class="benefit-icon"><i class="fas fa-tachometer-alt"></i></div>
-        <h5>意思決定のスピード化</h5>
+      <div class="benefit-compact-item animate-on-scroll scale-in delay-2">
+        <div class="benefit-compact-icon"><i class="fas fa-tachometer-alt"></i></div>
+        <div class="benefit-compact-number" data-target="72">0<span>→4</span></div>
+        <div class="benefit-compact-label">意思決定時間（時間）</div>
       </div>
-      <div class="benefit-card">
-        <div class="benefit-icon"><i class="fas fa-arrow-up"></i></div>
-        <h5>平均CV 140%改善</h5>
+      <div class="benefit-compact-item animate-on-scroll scale-in delay-3">
+        <div class="benefit-compact-icon"><i class="fas fa-arrow-up"></i></div>
+        <div class="benefit-compact-number" data-target="140">0<span>%</span></div>
+        <div class="benefit-compact-label">平均CV改善</div>
       </div>
     </div>
   </div>
