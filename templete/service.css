@@ -1,0 +1,138 @@
+/* ===== InfinityDesign Service Page ===== */
+
+/* Hero Section */
+.service-hero {
+  background: linear-gradient(135deg, #f5f7fa, #e0eafc);
+  padding: 60px 0 40px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.service-heading h1 {
+  font-size: 42px;
+  color: #2c3e50;
+  margin-bottom: 12px;
+}
+
+.service-heading .sub {
+  font-size: 20px;
+  color: #777;
+  margin-bottom: 18px;
+}
+
+.service-heading .breadcrumb {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.service-bg {
+  margin-top: 30px;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Introduction Section */
+.service-intro {
+  background: #fff;
+  padding: 80px 0;
+}
+
+.service-intro-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+}
+
+.service-intro .text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.service-intro .text h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.service-intro .text p {
+  font-size: 16px;
+  color: #555;
+}
+
+.service-intro .image {
+  flex: 1;
+  text-align: center;
+  min-width: 280px;
+}
+
+.service-intro .image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Service List Section */
+.service-list-section {
+  background: #f9fafc;
+  padding: 80px 0;
+}
+
+.service-list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.service-item {
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  border: 1px solid #eee;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.service-item:hover {
+  box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+  transform: translateY(-5px);
+}
+
+.service-icon {
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.service-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-align: center;
+  color: #007acc;
+}
+
+.service-desc {
+  font-size: 15px;
+  color: #555;
+  text-align: left;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .service-intro-inner {
+    flex-direction: column;
+  }
+
+  .service-heading h1 {
+    font-size: 32px;
+  }
+
+  .service-intro .text h2 {
+    font-size: 24px;
+  }
+
+  .service-title {
+    font-size: 18px;
+  }
+}
