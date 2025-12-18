@@ -6618,7 +6618,7 @@ Version: 1.3
 .card-image-wrapper {
   position: relative;
   width: 100%;
-  padding-top: 133.33%;
+  padding-top: 100%;
   overflow: hidden;
   background: #f3f4f6;
 }
