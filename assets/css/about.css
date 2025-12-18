@@ -20,15 +20,19 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: 
-    radial-gradient(circle at 30% 40%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
-    radial-gradient(circle at 70% 70%, rgba(255, 255, 255, 0.08) 0%, transparent 50%);
-  animation: pulse 8s ease-in-out infinite;
+  background-image: 
+    url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 500"><defs><linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style="stop-color:rgba(255,255,255,0.12);stop-opacity:1" /><stop offset="50%" style="stop-color:rgba(255,255,255,0.06);stop-opacity:1" /><stop offset="100%" style="stop-color:rgba(255,255,255,0.12);stop-opacity:1" /></linearGradient></defs><path fill="url(%23grad3)" d="M0,160L60,170.7C120,181,240,203,360,197.3C480,192,600,160,720,165.3C840,171,960,213,1080,218.7C1200,224,1320,192,1380,176L1440,160L1440,500L1380,500C1320,500,1200,500,1080,500C960,500,840,500,720,500C600,500,480,500,360,500C240,500,120,500,60,500L0,500Z"><animate attributeName="d" dur="12s" repeatCount="indefinite" values="M0,160L60,170.7C120,181,240,203,360,197.3C480,192,600,160,720,165.3C840,171,960,213,1080,218.7C1200,224,1320,192,1380,176L1440,160L1440,500L1380,500C1320,500,1200,500,1080,500C960,500,840,500,720,500C600,500,480,500,360,500C240,500,120,500,60,500L0,500Z;M0,224L60,213.3C120,203,240,181,360,186.7C480,192,600,224,720,229.3C840,235,960,213,1080,197.3C1200,181,1320,171,1380,165.3L1440,160L1440,500L1380,500C1320,500,1200,500,1080,500C960,500,840,500,720,500C600,500,480,500,360,500C240,500,120,500,60,500L0,500Z;M0,160L60,170.7C120,181,240,203,360,197.3C480,192,600,160,720,165.3C840,171,960,213,1080,218.7C1200,224,1320,192,1380,176L1440,160L1440,500L1380,500C1320,500,1200,500,1080,500C960,500,840,500,720,500C600,500,480,500,360,500C240,500,120,500,60,500L0,500Z" /></path></svg>'),
+    url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 500"><circle cx="200" cy="150" r="3" fill="rgba(255,255,255,0.6)"><animate attributeName="cy" dur="8s" repeatCount="indefinite" values="150;180;150" /><animate attributeName="opacity" dur="8s" repeatCount="indefinite" values="0.6;0.3;0.6" /></circle><circle cx="400" cy="200" r="2" fill="rgba(255,255,255,0.5)"><animate attributeName="cy" dur="10s" repeatCount="indefinite" values="200;230;200" /><animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0.5;0.2;0.5" /></circle><circle cx="600" cy="180" r="2.5" fill="rgba(255,255,255,0.7)"><animate attributeName="cy" dur="9s" repeatCount="indefinite" values="180;210;180" /><animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0.7;0.4;0.7" /></circle><circle cx="800" cy="160" r="3" fill="rgba(255,255,255,0.6)"><animate attributeName="cy" dur="11s" repeatCount="indefinite" values="160;190;160" /><animate attributeName="opacity" dur="11s" repeatCount="indefinite" values="0.6;0.3;0.6" /></circle><circle cx="1000" cy="190" r="2" fill="rgba(255,255,255,0.5)"><animate attributeName="cy" dur="7s" repeatCount="indefinite" values="190;220;190" /><animate attributeName="opacity" dur="7s" repeatCount="indefinite" values="0.5;0.2;0.5" /></circle><circle cx="1200" cy="170" r="2.5" fill="rgba(255,255,255,0.7)"><animate attributeName="cy" dur="12s" repeatCount="indefinite" values="170;200;170" /><animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0.7;0.4;0.7" /></circle></svg>');
+  background-position: bottom, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+  opacity: 0.5;
+  animation: aboutHeroBackground 18s ease-in-out infinite;
 }
 
-@keyframes pulse {
+@keyframes aboutHeroBackground {
   0%, 100% { opacity: 0.5; }
-  50% { opacity: 1; }
+  50% { opacity: 0.7; }
 }
 
 .about-hero-v2 .hero-overlay {
