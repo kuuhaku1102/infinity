@@ -218,6 +218,210 @@ get_header();
 
 		  	  </section>
 
+<!-- LP制作実績400件以上・次世代型LP制作セクション -->
+<section class="lp-performance-section">
+  <div class="infinity-container">
+    <h3 class="lp-section-title">
+      <dotlottie-wc src="https://lottie.host/f56e0c58-28b8-46d8-9412-b7cb6f0e1e52/42fD9PexxW.lottie" 
+        style="width: 60px; height: 60px; display: inline-block; vertical-align: middle; margin-right: 12px;" 
+        speed="1" autoplay loop></dotlottie-wc>
+      LP制作実績400件以上。「機能」で売る、次世代型LP制作
+    </h3>
+    <p class="lp-section-subtitle">
+      見栄えだけで終わらせない、成果を最大化する「機能性LP」。<br>
+      CVRを継続的に押し上げる仕組みを実装します。
+    </p>
+
+    <!-- 3つの特徴カード -->
+    <div class="lp-feature-cards">
+      <div class="lp-feature-card">
+        <div class="lp-feature-icon">
+          <i class="fas fa-brain"></i>
+        </div>
+        <h4 class="lp-feature-title">徹底した心理導線設計</h4>
+        <ul class="lp-feature-list">
+          <li>ファーストビューでの離脱を防ぐ訴求検証</li>
+          <li>意思決定トリガーとなるコンテンツ配置</li>
+          <li>社会的証明・FAQの最適化配置</li>
+        </ul>
+      </div>
+
+      <div class="lp-feature-card">
+        <div class="lp-feature-icon">
+          <i class="fas fa-mobile-alt"></i>
+        </div>
+        <h4 class="lp-feature-title">スマホファーストUI/UX</h4>
+        <ul class="lp-feature-list">
+          <li>表示速度最適化・コアウェブバイタル対応</li>
+          <li>指の可動域を考慮したタップ優先レイアウト</li>
+          <li>入力ストレスを軽減するスライドフォーム</li>
+        </ul>
+      </div>
+
+      <div class="lp-feature-card">
+        <div class="lp-feature-icon">
+          <i class="fas fa-chart-line"></i>
+        </div>
+        <h4 class="lp-feature-title">データで改善できる構造</h4>
+        <ul class="lp-feature-list">
+          <li>A/Bテスト前提の設計・LPO対応</li>
+          <li>GA4・Clarity・Lookerで数値を可視化</li>
+          <li>広告連携による継続的な最適化</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 実績数値 -->
+    <div class="lp-stats-row">
+      <div class="lp-stat-card">
+        <div class="lp-stat-value">+62<span class="lp-stat-unit">%</span></div>
+        <div class="lp-stat-label">直近CVR中央値</div>
+      </div>
+      <div class="lp-stat-card">
+        <div class="lp-stat-value">2.8<span class="lp-stat-unit">倍</span></div>
+        <div class="lp-stat-label">最高CVR改善率<br><small>※機能性LP導入後</small></div>
+      </div>
+      <div class="lp-stat-card">
+        <div class="lp-stat-value">2-3<span class="lp-stat-unit">週間</span></div>
+        <div class="lp-stat-label">最短納期<br><small>※案件により変動</small></div>
+      </div>
+    </div>
+
+    <!-- 専門家チーム -->
+    <div class="lp-team-section">
+      <h4 class="lp-team-title">
+        <i class="fas fa-users" style="margin-right: 8px; color: #667eea;"></i>
+        専門家構成チーム
+      </h4>
+      <div class="lp-team-row">
+        <div class="lp-team-member">
+          <i class="fas fa-bullhorn"></i>
+          <span>マーケター</span>
+        </div>
+        <div class="lp-team-cross">×</div>
+        <div class="lp-team-member">
+          <i class="fas fa-palette"></i>
+          <span>デザイナー</span>
+        </div>
+        <div class="lp-team-cross">×</div>
+        <div class="lp-team-member">
+          <i class="fas fa-code"></i>
+          <span>専門エンジニア</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 成果に直結する「高機能LP」ラインナップセクション -->
+<section class="lp-lineup-section">
+  <div class="infinity-container">
+    <h3>成果に直結する「高機能LP」ラインナップ <span class="infinity-badge">CVR 1.3〜2.8倍</span></h3>
+    <p class="lp-lineup-subtitle">
+      一般的な制作会社では難しいシステム連携も、技術力で実現。<br>
+      ビジネス課題を解決する5つの特殊機能。
+    </p>
+
+    <div class="lp-lineup-cards">
+      <!-- 予約機能付きLP -->
+      <div class="lp-lineup-card">
+        <div class="lp-lineup-icon">
+          <i class="fas fa-calendar-check"></i>
+        </div>
+        <h4 class="lp-lineup-title">予約機能付きLP</h4>
+        <div class="lp-lineup-badge">クリニック・サロン</div>
+        <ul class="lp-lineup-features">
+          <li>LP内で予約完結・Googleカレンダー/LINE自動連携</li>
+          <li>自動リマインド配信でキャンセル防止</li>
+        </ul>
+        <div class="lp-lineup-effect">
+          <i class="fas fa-arrow-up"></i> 機会損失ゼロ・来院率向上
+        </div>
+      </div>
+
+      <!-- シミュレーションLP -->
+      <div class="lp-lineup-card">
+        <div class="lp-lineup-icon">
+          <i class="fas fa-calculator"></i>
+        </div>
+        <h4 class="lp-lineup-title">シミュレーションLP</h4>
+        <div class="lp-lineup-badge">SaaS・金融・リフォーム</div>
+        <ul class="lp-lineup-features">
+          <li>見積自動計算・料金試算機能の実装</li>
+          <li>結果に応じたCTA（オファー）の出し分け</li>
+        </ul>
+        <div class="lp-lineup-effect">
+          <i class="fas fa-arrow-down"></i> 検討ハードル低減・高確度リード獲得
+        </div>
+      </div>
+
+      <!-- スライドフォームLP -->
+      <div class="lp-lineup-card">
+        <div class="lp-lineup-icon">
+          <i class="fas fa-sliders-h"></i>
+        </div>
+        <h4 class="lp-lineup-title">スライドフォームLP</h4>
+        <div class="lp-lineup-badge">D2C・人材・教育</div>
+        <ul class="lp-lineup-features">
+          <li>一問一答形式の横型スライドUI</li>
+          <li>ゲーム感覚で回答でき、入力負担を最小化</li>
+        </ul>
+        <div class="lp-lineup-effect">
+          <i class="fas fa-arrow-up"></i> フォーム離脱防止・完了率UP
+        </div>
+      </div>
+
+      <!-- 診断・アンケートLP -->
+      <div class="lp-lineup-card">
+        <div class="lp-lineup-icon">
+          <i class="fas fa-tasks"></i>
+        </div>
+        <h4 class="lp-lineup-title">診断・アンケートLP</h4>
+        <div class="lp-lineup-badge">幅広い業種</div>
+        <ul class="lp-lineup-features">
+          <li>回答結果でコンテンツ分岐・オファー最適化</li>
+          <li>ユーザーごとにパーソナライズされた提案</li>
+        </ul>
+        <div class="lp-lineup-effect">
+          <i class="fas fa-bullseye"></i> One to One訴求でCVR向上
+        </div>
+      </div>
+
+      <!-- KW反応型LP -->
+      <div class="lp-lineup-card">
+        <div class="lp-lineup-icon">
+          <i class="fas fa-search"></i>
+        </div>
+        <h4 class="lp-lineup-title">KW反応型LP</h4>
+        <div class="lp-lineup-badge">広告運用向け</div>
+        <ul class="lp-lineup-features">
+          <li>検索キーワードに応じて見出し・本文自動変化</li>
+          <li>ユーザーの検索意図に完全マッチさせる</li>
+        </ul>
+        <div class="lp-lineup-effect">
+          <i class="fas fa-star"></i> 品質スコア向上・CTR改善
+        </div>
+      </div>
+    </div>
+
+    <!-- 技術基盤・対応業種 -->
+    <div class="lp-lineup-footer">
+      <div class="lp-lineup-tech">
+        <h5><i class="fas fa-shield-alt"></i> 技術基盤（専門エンジニア監修）</h5>
+        <p>API・CRM・決済連携 / 計測タグ自動連携 / セキュリティ対策</p>
+      </div>
+      <div class="lp-lineup-industries">
+        <h5><i class="fas fa-building"></i> 対応業種</h5>
+        <div class="lp-industry-tags">
+          <span class="lp-industry-tag">美容・医療</span>
+          <span class="lp-industry-tag">SaaS・IT</span>
+          <span class="lp-industry-tag">EC・D2C</span>
+          <span class="lp-industry-tag">不動産</span>
+          <span class="lp-industry-tag">士業</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
     </div>
 
 
@@ -701,6 +905,139 @@ get_header();
 
   </div>
 
+</section>
+<!-- LP特化プラン・料金セクション -->
+<section class="lp-pricing-section">
+  <div class="infinity-container">
+    <h3>LP特化プラン・料金 <span class="infinity-badge">ご予算に合わせて</span></h3>
+    <p class="lp-pricing-subtitle">
+      ご予算、ご希望に合わせて最適なプランをご提案します
+    </p>
+
+    <!-- 3つのプラン -->
+    <div class="lp-pricing-table">
+      <!-- スピード重視プラン -->
+      <div class="lp-pricing-column">
+        <div class="lp-pricing-icon">
+          <i class="fas fa-tachometer-alt"></i>
+        </div>
+        <div class="lp-pricing-plan-name">スピード重視プラン</div>
+        <div class="lp-pricing-price">
+          <span class="lp-price-value">10</span>
+          <span class="lp-price-unit">万円〜</span>
+        </div>
+        <div class="lp-pricing-period">/ 最短2日</div>
+        <ul class="lp-pricing-features">
+          <li>デザイン + コーディング</li>
+          <li>原稿素材は完全支給（ライティング無）</li>
+          <li>テンプレートベースで高速構築</li>
+          <li>スマホ最適化（レスポンシブ）</li>
+        </ul>
+      </div>
+
+      <!-- デザイン重視プラン（推奨） -->
+      <div class="lp-pricing-column lp-pricing-featured">
+        <div class="lp-pricing-badge">おすすめ</div>
+        <div class="lp-pricing-icon">
+          <i class="fas fa-palette"></i>
+        </div>
+        <div class="lp-pricing-plan-name">デザイン重視プラン</div>
+        <div class="lp-pricing-price">
+          <span class="lp-price-value">30</span>
+          <span class="lp-price-unit">万円〜</span>
+        </div>
+        <div class="lp-pricing-period">/ 3週間〜</div>
+        <ul class="lp-pricing-features">
+          <li>完全オリジナルデザイン制作</li>
+          <li>ブランディングを重視した設計</li>
+          <li>プロのライティング支援込み</li>
+          <li>詳細な競合調査と戦略立案</li>
+        </ul>
+      </div>
+
+      <!-- 機能充実プラン -->
+      <div class="lp-pricing-column">
+        <div class="lp-pricing-icon">
+          <i class="fas fa-cogs"></i>
+        </div>
+        <div class="lp-pricing-plan-name">機能充実プラン</div>
+        <div class="lp-pricing-price">
+          <span class="lp-price-value">50</span>
+          <span class="lp-price-unit">万円〜</span>
+        </div>
+        <div class="lp-pricing-period">/ 1.5ヶ月〜</div>
+        <ul class="lp-pricing-features">
+          <li>システム連携や高度な機能実装</li>
+          <li>予約・決済・MA連携などに対応</li>
+          <li>運用を見据えたCMS構築</li>
+          <li>リリース後の改善サポート</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 機能別アドオン料金 -->
+    <div class="lp-addon-section">
+      <h4 class="lp-addon-title">機能別アドオン料金（目安）</h4>
+      <div class="lp-addon-grid">
+        <div class="lp-addon-item">
+          <div class="lp-addon-name">アンケート型機能</div>
+          <div class="lp-addon-price">+5万円〜</div>
+          <div class="lp-addon-period">工期+3日</div>
+        </div>
+        <div class="lp-addon-item">
+          <div class="lp-addon-name">予約システム連携</div>
+          <div class="lp-addon-price">+8万円〜</div>
+          <div class="lp-addon-period">工期+5日</div>
+        </div>
+        <div class="lp-addon-item">
+          <div class="lp-addon-name">KW連動バナー</div>
+          <div class="lp-addon-price">+3万円〜</div>
+          <div class="lp-addon-period">工期+2日</div>
+        </div>
+        <div class="lp-addon-item">
+          <div class="lp-addon-name">カウントダウン</div>
+          <div class="lp-addon-price">+2万円〜</div>
+          <div class="lp-addon-period">工期+1日</div>
+        </div>
+        <div class="lp-addon-item">
+          <div class="lp-addon-name">アニメーション演出</div>
+          <div class="lp-addon-price">+5万円〜</div>
+          <div class="lp-addon-period">工期+4日</div>
+        </div>
+        <div class="lp-addon-item">
+          <div class="lp-addon-name">ECカート連携</div>
+          <div class="lp-addon-price">+10万円〜</div>
+          <div class="lp-addon-period">工期+7日</div>
+        </div>
+        <div class="lp-addon-item">
+          <div class="lp-addon-name">CMS実装(WP)</div>
+          <div class="lp-addon-price">+8万円〜</div>
+          <div class="lp-addon-period">工期+5日</div>
+        </div>
+        <div class="lp-addon-item">
+          <div class="lp-addon-name">多言語対応</div>
+          <div class="lp-addon-price">別途見積</div>
+          <div class="lp-addon-period">規模による</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- オプションパック -->
+    <div class="lp-option-pack">
+      <div class="lp-option-badge">お得なオプションパック</div>
+      <p>セットで依頼すると割引適用</p>
+      <div class="lp-option-tags">
+        <span class="lp-option-tag"><i class="fas fa-pen"></i> プロライティング</span>
+        <span class="lp-option-tag"><i class="fas fa-chart-bar"></i> ヒートマップ/GA4設定</span>
+        <span class="lp-option-tag"><i class="fas fa-ad"></i> 広告バナー制作</span>
+      </div>
+    </div>
+
+    <div class="lp-pricing-note">
+      お客様の課題に合わせて柔軟にプランニングいたします。<br>
+      まずはお気軽にご相談ください。
+    </div>
+  </div>
 </section>
 
 <section class="infinity-pricing-section">
