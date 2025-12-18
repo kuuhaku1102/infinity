@@ -217,207 +217,286 @@ get_header();
       </div>
 
 		  	  </section>
-
-<!-- LP制作実績400件以上・次世代型LP制作セクション -->
-<section class="lp-performance-section">
+<!-- 高機能Webサイト構築セクション -->
+<section class="website-features-section">
   <div class="infinity-container">
-    <h3 class="lp-section-title">
-      <dotlottie-wc src="https://lottie.host/f56e0c58-28b8-46d8-9412-b7cb6f0e1e52/42fD9PexxW.lottie" 
-        style="width: 60px; height: 60px; display: inline-block; vertical-align: middle; margin-right: 12px;" 
-        speed="1" autoplay loop></dotlottie-wc>
-      LP制作実績400件以上。「機能」で売る、次世代型LP制作
-    </h3>
-    <p class="lp-section-subtitle">
-      見栄えだけで終わらせない、成果を最大化する「機能性LP」。<br>
-      CVRを継続的に押し上げる仕組みを実装します。
+    <h3 class="section-title">あらゆる業種・用途に対応する高機能Webサイト構築</h3>
+    <p class="section-subtitle">
+      単なる「見た目の良いサイト」ではなく、ビジネス成果に直結する<strong>戦略的Webサイト</strong>を構築。<br>
+      会員制、EC、予約システムなど、高度な機能実装で貴社の成長を加速させます。
     </p>
 
-    <!-- 3つの特徴カード -->
-    <div class="lp-feature-cards">
-      <div class="lp-feature-card">
-        <div class="lp-feature-icon">
-          <i class="fas fa-brain"></i>
+    <div class="website-features-grid">
+      <!-- コーポレートサイト -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-building"></i>
         </div>
-        <h4 class="lp-feature-title">徹底した心理導線設計</h4>
-        <ul class="lp-feature-list">
-          <li>ファーストビューでの離脱を防ぐ訴求検証</li>
-          <li>意思決定トリガーとなるコンテンツ配置</li>
-          <li>社会的証明・FAQの最適化配置</li>
+        <h4>コーポレートサイト</h4>
+        <ul>
+          <li>CMSによる更新機能（お知らせ・ブログ・採用）</li>
+          <li>多言語対応（日英中など）</li>
+          <li>採用管理システム</li>
+          <li>IR情報管理</li>
         </ul>
       </div>
 
-      <div class="lp-feature-card">
-        <div class="lp-feature-icon">
-          <i class="fas fa-mobile-alt"></i>
+      <!-- 会員制サイト -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-users"></i>
         </div>
-        <h4 class="lp-feature-title">スマホファーストUI/UX</h4>
-        <ul class="lp-feature-list">
-          <li>表示速度最適化・コアウェブバイタル対応</li>
-          <li>指の可動域を考慮したタップ優先レイアウト</li>
-          <li>入力ストレスを軽減するスライドフォーム</li>
+        <h4>会員制サイト</h4>
+        <ul>
+          <li>会員登録・ログイン機能</li>
+          <li>会員限定コンテンツ</li>
+          <li>マイページ機能</li>
+          <li>コミュニティ機能</li>
         </ul>
       </div>
 
-      <div class="lp-feature-card">
-        <div class="lp-feature-icon">
-          <i class="fas fa-chart-line"></i>
+      <!-- ECサイト -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-shopping-cart"></i>
         </div>
-        <h4 class="lp-feature-title">データで改善できる構造</h4>
-        <ul class="lp-feature-list">
-          <li>A/Bテスト前提の設計・LPO対応</li>
-          <li>GA4・Clarity・Lookerで数値を可視化</li>
-          <li>広告連携による継続的な最適化</li>
+        <h4>ECサイト</h4>
+        <ul>
+          <li>商品管理・在庫管理</li>
+          <li>カート・決済機能</li>
+          <li>会員ポイントシステム</li>
+          <li>配送・物流連携</li>
+        </ul>
+      </div>
+
+      <!-- 予約・マッチングサイト -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-calendar-check"></i>
+        </div>
+        <h4>予約・マッチングサイト</h4>
+        <ul>
+          <li>予約管理システム</li>
+          <li>マッチング機能</li>
+          <li>決済・請求機能</li>
+          <li>レビュー・評価機能</li>
+        </ul>
+      </div>
+
+      <!-- メディアサイト -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-newspaper"></i>
+        </div>
+        <h4>メディアサイト</h4>
+        <ul>
+          <li>記事管理CMS</li>
+          <li>検索・フィルター機能</li>
+          <li>広告管理</li>
+          <li>アクセス解析</li>
+        </ul>
+      </div>
+
+      <!-- 業務システム -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-cogs"></i>
+        </div>
+        <h4>業務システム</h4>
+        <ul>
+          <li>顧客管理（CRM）</li>
+          <li>プロジェクト管理</li>
+          <li>ワークフロー</li>
+          <li>データ可視化</li>
         </ul>
       </div>
     </div>
+  </div>
+</section>
 
-    <!-- 実績数値 -->
-    <div class="lp-stats-row">
-      <div class="lp-stat-card">
-        <div class="lp-stat-value">+62<span class="lp-stat-unit">%</span></div>
-        <div class="lp-stat-label">直近CVR中央値</div>
-      </div>
-      <div class="lp-stat-card">
-        <div class="lp-stat-value">2.8<span class="lp-stat-unit">倍</span></div>
-        <div class="lp-stat-label">最高CVR改善率<br><small>※機能性LP導入後</small></div>
-      </div>
-      <div class="lp-stat-card">
-        <div class="lp-stat-value">2-3<span class="lp-stat-unit">週間</span></div>
-        <div class="lp-stat-label">最短納期<br><small>※案件により変動</small></div>
-      </div>
-    </div>
+<!-- 対応技術スタックセクション -->
+<section class="tech-stack-section">
+  <div class="infinity-container">
+    <h3 class="section-title">最新技術で、拡張性・保守性の高いサイトを構築</h3>
+    <p class="section-subtitle">
+      プロジェクトの要件に応じて、最適な技術スタックを選定。<br>
+      将来的な機能追加や改修にも柔軟に対応できる設計を実現します。
+    </p>
 
-    <!-- 専門家チーム -->
-    <div class="lp-team-section">
-      <h4 class="lp-team-title">
-        <i class="fas fa-users" style="margin-right: 8px; color: #667eea;"></i>
-        専門家構成チーム
-      </h4>
-      <div class="lp-team-row">
-        <div class="lp-team-member">
-          <i class="fas fa-bullhorn"></i>
-          <span>マーケター</span>
+    <div class="tech-stack-grid">
+      <div class="tech-category">
+        <h4><i class="fas fa-laptop-code"></i> フロントエンド</h4>
+        <div class="tech-tags">
+          <span class="tech-tag">HTML5 / CSS3</span>
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">React / Next.js</span>
+          <span class="tech-tag">Vue.js / Nuxt.js</span>
+          <span class="tech-tag">TypeScript</span>
         </div>
-        <div class="lp-team-cross">×</div>
-        <div class="lp-team-member">
-          <i class="fas fa-palette"></i>
-          <span>デザイナー</span>
+      </div>
+
+      <div class="tech-category">
+        <h4><i class="fas fa-server"></i> バックエンド</h4>
+        <div class="tech-tags">
+          <span class="tech-tag">PHP / Laravel</span>
+          <span class="tech-tag">Node.js / Express</span>
+          <span class="tech-tag">Python / Django</span>
+          <span class="tech-tag">Ruby on Rails</span>
         </div>
-        <div class="lp-team-cross">×</div>
-        <div class="lp-team-member">
-          <i class="fas fa-code"></i>
-          <span>専門エンジニア</span>
+      </div>
+
+      <div class="tech-category">
+        <h4><i class="fas fa-edit"></i> CMS</h4>
+        <div class="tech-tags">
+          <span class="tech-tag">WordPress</span>
+          <span class="tech-tag">Headless CMS</span>
+          <span class="tech-tag">カスタムCMS</span>
+        </div>
+      </div>
+
+      <div class="tech-category">
+        <h4><i class="fas fa-database"></i> データベース</h4>
+        <div class="tech-tags">
+          <span class="tech-tag">MySQL</span>
+          <span class="tech-tag">PostgreSQL</span>
+          <span class="tech-tag">MongoDB</span>
+          <span class="tech-tag">Firebase</span>
+        </div>
+      </div>
+
+      <div class="tech-category">
+        <h4><i class="fas fa-cloud"></i> インフラ</h4>
+        <div class="tech-tags">
+          <span class="tech-tag">AWS</span>
+          <span class="tech-tag">Google Cloud</span>
+          <span class="tech-tag">Azure</span>
+          <span class="tech-tag">レンタルサーバー</span>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- 成果に直結する「高機能LP」ラインナップセクション -->
-<section class="lp-lineup-section">
+
+<!-- 業種別実装事例セクション -->
+<section class="industry-examples-section">
   <div class="infinity-container">
-    <h3>成果に直結する「高機能LP」ラインナップ <span class="infinity-badge">CVR 1.3〜2.8倍</span></h3>
-    <p class="lp-lineup-subtitle">
-      一般的な制作会社では難しいシステム連携も、技術力で実現。<br>
-      ビジネス課題を解決する5つの特殊機能。
+    <h3 class="section-title">業種特化の実装ノウハウで、最適なソリューションを提供</h3>
+    <p class="section-subtitle">
+      500件以上の構築実績から培った業種別のノウハウで、<br>
+      貴社のビジネスに最適化されたWebサイトを構築します。
     </p>
 
-    <div class="lp-lineup-cards">
-      <!-- 予約機能付きLP -->
-      <div class="lp-lineup-card">
-        <div class="lp-lineup-icon">
-          <i class="fas fa-calendar-check"></i>
+    <div class="industry-grid">
+      <div class="industry-card">
+        <div class="industry-icon">
+          <i class="fas fa-hospital"></i>
         </div>
-        <h4 class="lp-lineup-title">予約機能付きLP</h4>
-        <div class="lp-lineup-badge">クリニック・サロン</div>
-        <ul class="lp-lineup-features">
-          <li>LP内で予約完結・Googleカレンダー/LINE自動連携</li>
-          <li>自動リマインド配信でキャンセル防止</li>
+        <h4>医療・クリニック</h4>
+        <ul>
+          <li>オンライン予約・Web問診票</li>
+          <li>患者管理システム</li>
+          <li>オンライン診療対応</li>
         </ul>
-        <div class="lp-lineup-effect">
-          <i class="fas fa-arrow-up"></i> 機会損失ゼロ・来院率向上
-        </div>
       </div>
 
-      <!-- シミュレーションLP -->
-      <div class="lp-lineup-card">
-        <div class="lp-lineup-icon">
-          <i class="fas fa-calculator"></i>
+      <div class="industry-card">
+        <div class="industry-icon">
+          <i class="fas fa-home"></i>
         </div>
-        <h4 class="lp-lineup-title">シミュレーションLP</h4>
-        <div class="lp-lineup-badge">SaaS・金融・リフォーム</div>
-        <ul class="lp-lineup-features">
-          <li>見積自動計算・料金試算機能の実装</li>
-          <li>結果に応じたCTA（オファー）の出し分け</li>
+        <h4>不動産</h4>
+        <ul>
+          <li>物件検索・地図表示</li>
+          <li>内見予約システム</li>
+          <li>顧客管理・追客機能</li>
         </ul>
-        <div class="lp-lineup-effect">
-          <i class="fas fa-arrow-down"></i> 検討ハードル低減・高確度リード獲得
-        </div>
       </div>
 
-      <!-- スライドフォームLP -->
-      <div class="lp-lineup-card">
-        <div class="lp-lineup-icon">
-          <i class="fas fa-sliders-h"></i>
+      <div class="industry-card">
+        <div class="industry-icon">
+          <i class="fas fa-graduation-cap"></i>
         </div>
-        <h4 class="lp-lineup-title">スライドフォームLP</h4>
-        <div class="lp-lineup-badge">D2C・人材・教育</div>
-        <ul class="lp-lineup-features">
-          <li>一問一答形式の横型スライドUI</li>
-          <li>ゲーム感覚で回答でき、入力負担を最小化</li>
+        <h4>教育・スクール</h4>
+        <ul>
+          <li>オンライン学習システム</li>
+          <li>生徒・成績管理</li>
+          <li>入会申込・月謝管理</li>
         </ul>
-        <div class="lp-lineup-effect">
-          <i class="fas fa-arrow-up"></i> フォーム離脱防止・完了率UP
-        </div>
       </div>
 
-      <!-- 診断・アンケートLP -->
-      <div class="lp-lineup-card">
-        <div class="lp-lineup-icon">
-          <i class="fas fa-tasks"></i>
+      <div class="industry-card">
+        <div class="industry-icon">
+          <i class="fas fa-utensils"></i>
         </div>
-        <h4 class="lp-lineup-title">診断・アンケートLP</h4>
-        <div class="lp-lineup-badge">幅広い業種</div>
-        <ul class="lp-lineup-features">
-          <li>回答結果でコンテンツ分岐・オファー最適化</li>
-          <li>ユーザーごとにパーソナライズされた提案</li>
+        <h4>飲食・サービス業</h4>
+        <ul>
+          <li>メニュー管理・アレルギー表示</li>
+          <li>テーブル予約システム</li>
+          <li>デリバリー連携</li>
         </ul>
-        <div class="lp-lineup-effect">
-          <i class="fas fa-bullseye"></i> One to One訴求でCVR向上
-        </div>
       </div>
 
-      <!-- KW反応型LP -->
-      <div class="lp-lineup-card">
-        <div class="lp-lineup-icon">
-          <i class="fas fa-search"></i>
+      <div class="industry-card">
+        <div class="industry-icon">
+          <i class="fas fa-industry"></i>
         </div>
-        <h4 class="lp-lineup-title">KW反応型LP</h4>
-        <div class="lp-lineup-badge">広告運用向け</div>
-        <ul class="lp-lineup-features">
-          <li>検索キーワードに応じて見出し・本文自動変化</li>
-          <li>ユーザーの検索意図に完全マッチさせる</li>
+        <h4>製造・BtoB</h4>
+        <ul>
+          <li>製品カタログ・仕様検索</li>
+          <li>見積もりシステム</li>
+          <li>代理店ポータル</li>
         </ul>
-        <div class="lp-lineup-effect">
-          <i class="fas fa-star"></i> 品質スコア向上・CTR改善
-        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- セキュリティ・保守体制セクション -->
+<section class="security-maintenance-section">
+  <div class="infinity-container">
+    <h3 class="section-title">安心・安全な運用を支える万全の体制</h3>
+    <p class="section-subtitle">
+      構築後も長期的に安心してご利用いただけるよう、<br>
+      セキュリティ対策と保守・運用サポートを標準でご提供します。
+    </p>
+
+    <div class="security-grid">
+      <div class="security-card">
+        <h4><i class="fas fa-shield-alt"></i> セキュリティ対策</h4>
+        <ul>
+          <li><strong>SSL証明書</strong>: 常時SSL化（https://）</li>
+          <li><strong>WAF導入</strong>: Webアプリケーションファイアウォール</li>
+          <li><strong>脆弱性診断</strong>: 定期的なセキュリティチェック</li>
+          <li><strong>バックアップ</strong>: 自動バックアップ・復旧体制</li>
+        </ul>
+      </div>
+
+      <div class="security-card">
+        <h4><i class="fas fa-tools"></i> 保守・運用サポート</h4>
+        <ul>
+          <li><strong>定期メンテナンス</strong>: セキュリティアップデート・バグ修正</li>
+          <li><strong>障害対応</strong>: 24時間監視・緊急対応</li>
+          <li><strong>コンテンツ更新</strong>: 月次更新・画像差し替え</li>
+          <li><strong>アクセス解析レポート</strong>: 月次レポート・改善提案</li>
+        </ul>
       </div>
     </div>
 
-    <!-- 技術基盤・対応業種 -->
-    <div class="lp-lineup-footer">
-      <div class="lp-lineup-tech">
-        <h5><i class="fas fa-shield-alt"></i> 技術基盤（専門エンジニア監修）</h5>
-        <p>API・CRM・決済連携 / 計測タグ自動連携 / セキュリティ対策</p>
+    <div class="stats-row">
+      <div class="stat-item">
+        <div class="stat-number">500<span>件以上</span></div>
+        <div class="stat-label">Webサイト構築実績</div>
       </div>
-      <div class="lp-lineup-industries">
-        <h5><i class="fas fa-building"></i> 対応業種</h5>
-        <div class="lp-industry-tags">
-          <span class="lp-industry-tag">美容・医療</span>
-          <span class="lp-industry-tag">SaaS・IT</span>
-          <span class="lp-industry-tag">EC・D2C</span>
-          <span class="lp-industry-tag">不動産</span>
-          <span class="lp-industry-tag">士業</span>
-        </div>
+      <div class="stat-item">
+        <div class="stat-number">50<span>件以上</span></div>
+        <div class="stat-label">会員制サイト構築</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">30<span>件以上</span></div>
+        <div class="stat-label">ECサイト構築</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">85<span>%以上</span></div>
+        <div class="stat-label">継続率（保守契約）</div>
       </div>
     </div>
   </div>

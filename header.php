@@ -21,7 +21,10 @@
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/editor-style.css">
 
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/website-creation.css">
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/lp-sections.css">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/website-sections.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
 
