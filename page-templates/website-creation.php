@@ -422,13 +422,8 @@ get_header();
     </div>
   </div>
 </section>
-    </div>
 
-
-
-    
-
-	<section class="feature">
+<section class="feature">
 
 		<h3>Infinity Designが提供する価値</h3>
 
