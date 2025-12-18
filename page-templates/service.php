@@ -118,7 +118,7 @@ get_header();
       <h3 class="category-title">Business Consulting</h3>
       <p class="category-desc">戦略的ビジネスコンサルティング</p>
       <div class="service-grid">
-        <a href="/service/ga4" class="service-card">
+        <a href="/data-analytics" class="service-card">
           <div class="card-image">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service-consulting.jpg" alt="Analytics Consulting">
           </div>
@@ -146,3 +146,4 @@ get_header();
 </section>
 
 <?php get_footer(); ?>
+
