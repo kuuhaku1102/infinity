@@ -442,7 +442,7 @@ get_header();
       </div>
       <div class="benefit-compact-item animate-on-scroll scale-in delay-3">
         <div class="benefit-compact-icon"><i class="fas fa-arrow-up"></i></div>
-        <div class="benefit-compact-number" data-target="140">0<span>%</span></div>
+        <div class="benefit-compact-number">2-5<span>%</span></div>
         <div class="benefit-compact-label">平均CV改善</div>
       </div>
     </div>
