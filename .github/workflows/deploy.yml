@@ -20,9 +20,18 @@ jobs:
       - name: Setup SSH key
         run: |
           mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          echo -e "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan -p ${{ secrets.SSH_PORT }} -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+      
+      - name: Verify SSH key format
+        run: |
+          echo "First line:"
+          head -n 1 ~/.ssh/id_rsa
+          echo "Last line:"
+          tail -n 1 ~/.ssh/id_rsa
+          echo "Total lines:"
+          wc -l ~/.ssh/id_rsa
       
       - name: Test SSH connection
         run: |
