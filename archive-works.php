@@ -189,9 +189,6 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/noimage.jpg" alt="no image" class="card-image">
               <?php endif; ?>
             <?php endif; ?>
-            <div class="card-overlay">
-              <span class="view-more">詳しく見る →</span>
-            </div>
           </div>
           <div class="card-content">
             <div class="card-meta">
@@ -199,6 +196,9 @@
               <span class="card-date"><?php echo get_the_date('Y.m.d'); ?></span>
             </div>
             <h3 class="card-title"><?php the_title(); ?></h3>
+            <div class="card-button-wrapper">
+              <span class="card-view-button">詳しく見る →</span>
+            </div>
           </div>
         </a>
       </div>
