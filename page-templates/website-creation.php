@@ -35,33 +35,19 @@ get_header();
 
 
     .stroke {
-
       fill: none;
-
-      stroke: #000;
-
-      stroke-width: 2;
-
+      stroke: #ffffff;
+      stroke-width: 3;
       stroke-dasharray: 2000;
-
       stroke-dashoffset: 2000;
-
       animation: draw 2s ease-out forwards;
-
     }
 
-
-
     .fill {
-
-      fill: #000;
-
+      fill: #ffffff;
       opacity: 0;
-
       animation: fillIn 1.2s ease-out forwards;
-
       animation-delay: 2s;
-
     }
 
 
