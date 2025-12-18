@@ -1,8 +1,8 @@
 .infinity-section {
     font-family: 'Segoe UI', 'Hiragino Sans', 'Meiryo', sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #ffffff;
     color: #333;
-    padding: 80px 0 60px 0;
+    padding: 0;
     margin: 0;
     position: relative;
     overflow: hidden;
@@ -14,39 +14,14 @@
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
-    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23ffffff" fill-opacity="0.05" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,144C960,149,1056,139,1152,128C1248,117,1344,107,1392,101.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>') no-repeat bottom;
-    background-size: cover;
-    animation: wave 20s ease-in-out infinite;
+    height: 450px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    z-index: 0;
 }
 
 @keyframes wave {
     0%, 100% { transform: translateX(0); }
     50% { transform: translateX(50px); }
-}
-
-.infinity-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    background: rgba(255,255,255,0.95);
-    border-radius: 24px;
-    padding: 60px 40px 40px 40px;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-    position: relative;
-    z-index: 1;
-}
-
-.infinity-title {
-    font-size: 2.5rem;
-    font-weight: 800;
-    letter-spacing: 0.05em;
-    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    margin-bottom: 24px;
-    text-align: center;
-    animation: fadeInUp 0.8s ease;
 }
 
 @keyframes fadeInUp {
@@ -60,14 +35,39 @@
     }
 }
 
-.infinity-lead {
-    font-size: 1.3rem;
-    color: #555;
+.infinity-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: transparent;
+    padding: 60px 40px 80px;
+    position: relative;
+    z-index: 1;
+}
+
+.infinity-title {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 20px;
     text-align: center;
-    margin-bottom: 48px;
-    line-height: 1.8;
-    font-weight: 500;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    animation: fadeInUp 0.8s ease;
+}
+
+.infinity-lead {
+    font-size: 1.05rem;
+    color: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    margin-bottom: 60px;
+    line-height: 1.9;
+    font-weight: 400;
     animation: fadeInUp 0.8s ease 0.2s both;
+}
+
+.infinity-highlight {
+    font-weight: 600;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
 }
 
 .infinity-section h2, .infinity-section h3 {
@@ -85,43 +85,24 @@
 }
 
 .infinity-section h3 {
-
   font-size: 1.8rem;
-
-  font-weight: 600;
-
-  color: #1a1a1a;
-
+  font-weight: 700;
+  color: #2d3748;
   text-align: center;
-
   position: relative;
-
-  margin-top: 48px;
-
-  margin-bottom: 24px;
-
-  padding-bottom: 12px;
-
+  margin-top: 80px;
+  margin-bottom: 40px;
+  padding-bottom: 16px;
 }
 
-
-
 .infinity-section h3::after {
-
   content: '';
-
   display: block;
-
   width: 60px;
-
-  height: 3px;
-
-  background-color: #e63946; /* ブランドカラーなどに応じて変更可 */
-
-  margin: 12px auto 0;
-
+  height: 4px;
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  margin: 16px auto 0;
   border-radius: 2px;
-
 }
 
 
@@ -145,27 +126,16 @@
 }
 
 .infinity-badge {
-
     display: inline-block;
-
-    background: #00c6ff;
-
+    background: linear-gradient(135deg, #667eea, #764ba2);
     color: #fff;
-
-    font-size: 0.95rem;
-
+    font-size: 0.75rem;
     font-weight: 600;
-
     border-radius: 12px;
-
-    padding: 2px 12px;
-
-    margin-right: 8px;
-
+    padding: 4px 12px;
+    margin-left: 8px;
     vertical-align: middle;
-
     letter-spacing: 0.03em;
-
 }
 
 .infinity-feature-row {
@@ -306,10 +276,10 @@
 .infinity-card {
     padding: 32px 24px;
     background: #ffffff;
-    border-radius: 16px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    border: 2px solid transparent;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    border: 1px solid #e2e8f0;
     position: relative;
     overflow: hidden;
 }
@@ -319,15 +289,14 @@
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
-    height: 4px;
-    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
-    transform: scaleX(0);
-    transition: transform 0.4s ease;
+    width: 4px;
+    height: 0;
+    background: linear-gradient(180deg, #667eea, #764ba2);
+    transition: height 0.3s ease;
 }
 
 .infinity-card:hover::before {
-    transform: scaleX(1);
+    height: 100%;
 }
 
 /* ▼ スマホ（〜767px）は1列表示 */
@@ -405,28 +374,39 @@
 
 
 .infinity-card:hover {
-    transform: translateY(-12px) scale(1.02);
-    box-shadow: 0 20px 40px rgba(102, 126, 234, 0.25);
+    transform: translateY(-8px);
+    box-shadow: 0 8px 24px rgba(102, 126, 234, 0.2);
     border-color: #667eea;
 }
 
 .infinity-card-title {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 700;
-    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: #2d3748;
     margin-bottom: 12px;
-    transition: all 0.3s ease;
+    text-align: center;
 }
 
 .infinity-card ul {
-
-    padding-left: 18px;
-
+    padding-left: 0;
     margin: 0;
+    list-style: none;
+}
 
+.infinity-card ul li {
+    font-size: 0.9rem;
+    color: #4a5568;
+    padding: 6px 0 6px 20px;
+    position: relative;
+    line-height: 1.6;
+}
+
+.infinity-card ul li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #667eea;
+    font-weight: bold;
 }
 
 .infinity-card-img {
@@ -494,17 +474,17 @@
 
 
 .infinity-feature-item {
-
-  background: #f9f9f9;
-
+  background: #f7fafc;
   border-radius: 12px;
+  padding: 30px;
+  border: 1px solid #e2e8f0;
+  transition: all 0.3s ease;
+}
 
-  padding: 24px;
-
-  text-align: center;
-
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
-
+.infinity-feature-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.12);
+  border-color: #667eea;
 }
 
 
@@ -530,41 +510,34 @@
 
 
 .feature-text b {
-
   font-size: 1.2rem;
-
-  color: #1a1a1a;
-
+  color: #2d3748;
   display: block;
-
   margin-bottom: 12px;
-
 }
 
 
 
 .infinity-list {
-
   list-style: none;
-
   padding: 0;
-
   margin: 0;
-
   text-align: left;
-
-  font-size: 0.95rem;
-
+  font-size: 0.9rem;
 }
 
-
-
 .infinity-list li {
+  font-size: 0.9rem;
+  color: #4a5568;
+  padding: 6px 0;
+  line-height: 1.6;
+}
 
-  margin-bottom: 8px;
-
-  line-height: 1.5;
-
+.infinity-list li b {
+  color: #667eea;
+  font-weight: 600;
+  display: inline;
+  font-size: 0.9rem;
 }
 
 
@@ -606,37 +579,28 @@
 /*  */
 
 .infinity-cards2 {
-
   display: grid;
-
   grid-template-columns: repeat(3, 1fr);
-
-  gap: 32px;
-
-  max-width: 1200px;
-
-  margin: 0 auto;
-
-  padding: 40px 20px;
-
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto 48px;
+  padding: 0 16px;
 }
 
-
-
 .infinity-card2 {
-
-  background: rgba(255,255,255,0.07);
-
+  background: #ffffff;
   border-radius: 12px;
-
-  box-shadow: 0 2px 12px rgba(0,198,255,0.08);
-
-  padding: 22px 18px 18px;
-
-  transition: transform 0.2s;
-
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  padding: 30px 20px;
+  transition: all 0.3s ease;
+  border: 1px solid #e2e8f0;
   text-align: center;
+}
 
+.infinity-card2:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px rgba(102, 126, 234, 0.2);
+  border-color: #667eea;
 }
 
 
@@ -658,41 +622,37 @@
 /* カードタイトル */
 
 .infinity-card2-title {
-
   font-size: 1.2rem;
-
-  font-weight: 600;
-
+  font-weight: 700;
   margin-bottom: 12px;
-
-  color: #1a1a1a;
-
+  color: #2d3748;
 }
 
 
 
 /* リスト */
 
-.infinity-card ul {
-
+.infinity-card2 ul {
   list-style: none;
-
   padding: 0;
-
   margin: 0;
-
+  text-align: left;
 }
 
+.infinity-card2 ul li {
+  font-size: 0.85rem;
+  color: #4a5568;
+  padding: 6px 0 6px 20px;
+  position: relative;
+  line-height: 1.6;
+}
 
-
-.infinity-card li {
-
-  font-size: 0.95rem;
-
-  margin-bottom: 8px;
-
-  line-height: 1.5;
-
+.infinity-card2 ul li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #667eea;
+  font-weight: bold;
 }
 
 
