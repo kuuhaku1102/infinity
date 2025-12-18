@@ -57,6 +57,11 @@ function enqueue_theme_scripts() {
   if (is_page_template('page-templates/service.php')) {
     wp_enqueue_style('service-css', get_template_directory_uri() . '/assets/css/service.css');
   }
+  
+  // About page CSS
+  if (is_page_template('page-templates/about.php')) {
+    wp_enqueue_style('about-css', get_template_directory_uri() . '/assets/css/about.css');
+  }
 }
 add_action('wp_enqueue_scripts', 'enqueue_theme_scripts');
 
