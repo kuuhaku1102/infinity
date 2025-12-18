@@ -220,9 +220,9 @@ get_header();
 <!-- 高機能Webサイト構築セクション -->
 <section class="website-features-section">
   <div class="infinity-container">
-    <h3 class="section-title">あらゆる業種・用途に対応する高機能Webサイト構築</h3>
-    <p class="section-subtitle">
-      単なる「見た目の良いサイト」ではなく、ビジネス成果に直結する<strong>戦略的Webサイト</strong>を構築。<br>
+    <h3 class="section-title animate-on-scroll fade-in-up">あらゆる業種・用途に対応する高機能Webサイト構築</h3>
+    <p class="section-subtitle animate-on-scroll fade-in-up delay-2">
+      単なる「見た目の良いサイト」ではなく、ビジネス成果に直結する<strong class="infinity-highlight">戦略的Webサイト</strong>を構築。<br>
       会員制、EC、予約システムなど、高度な機能実装で貴社の成長を加速させます。
     </p>
 
@@ -317,8 +317,8 @@ get_header();
 <!-- 対応技術スタックセクション -->
 <section class="tech-stack-section">
   <div class="infinity-container">
-    <h3 class="section-title">最新技術で、拡張性・保守性の高いサイトを構築</h3>
-    <p class="section-subtitle">
+    <h3 class="section-title animate-on-scroll fade-in-up">最新技術で、拡張性・保守性の高いサイトを構築</h3>
+    <p class="section-subtitle animate-on-scroll fade-in-up delay-2">
       プロジェクトの要件に応じて、最適な技術スタックを選定。<br>
       将来的な機能追加や改修にも柔軟に対応できる設計を実現します。
     </p>
@@ -380,9 +380,9 @@ get_header();
 <!-- 業種別実装事例セクション -->
 <section class="industry-examples-section">
   <div class="infinity-container">
-    <h3 class="section-title">業種特化の実装ノウハウで、最適なソリューションを提供</h3>
-    <p class="section-subtitle">
-      500件以上の構築実績から培った業種別のノウハウで、<br>
+    <h3 class="section-title animate-on-scroll fade-in-up">業種特化の実装ノウハウで、最適なソリューションを提供</h3>
+    <p class="section-subtitle animate-on-scroll fade-in-up delay-2">
+      <span class="stat-number" data-target="500件以上">500件以上</span>の構築実績から培った業種別のノウハウで、<br>
       貴社のビジネスに最適化されたWebサイトを構築します。
     </p>
 
@@ -453,8 +453,8 @@ get_header();
 <!-- セキュリティ・保守体制セクション -->
 <section class="security-maintenance-section">
   <div class="infinity-container">
-    <h3 class="section-title">安心・安全な運用を支える万全の体制</h3>
-    <p class="section-subtitle">
+    <h3 class="section-title animate-on-scroll fade-in-up">安心・安全な運用を支える万全の体制</h3>
+    <p class="section-subtitle animate-on-scroll fade-in-up delay-2">
       構築後も長期的に安心してご利用いただけるよう、<br>
       セキュリティ対策と保守・運用サポートを標準でご提供します。
     </p>
@@ -483,19 +483,19 @@ get_header();
 
     <div class="stats-row">
       <div class="stat-item">
-        <div class="stat-number">500<span>件以上</span></div>
+        <div class="stat-number" data-target="500件以上">500<span>件以上</span></div>
         <div class="stat-label">Webサイト構築実績</div>
       </div>
       <div class="stat-item">
-        <div class="stat-number">50<span>件以上</span></div>
+        <div class="stat-number" data-target="50件以上">50<span>件以上</span></div>
         <div class="stat-label">会員制サイト構築</div>
       </div>
       <div class="stat-item">
-        <div class="stat-number">30<span>件以上</span></div>
+        <div class="stat-number" data-target="30件以上">30<span>件以上</span></div>
         <div class="stat-label">ECサイト構築</div>
       </div>
       <div class="stat-item">
-        <div class="stat-number">85<span>%以上</span></div>
+        <div class="stat-number" data-target="85%以上">85<span>%以上</span></div>
         <div class="stat-label">継続率（保守契約）</div>
       </div>
     </div>
