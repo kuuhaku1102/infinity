@@ -78,9 +78,10 @@ function enqueue_theme_scripts() {
     wp_enqueue_style('why-choose-us-css', get_template_directory_uri() . '/assets/css/why-choose-us.css');
   }
   
-  // LP Creation page CSS
+  // LP Creation page CSS and JS
   if (is_page_template('page-templates/lp-creation.php')) {
     wp_enqueue_style('lp-creation-css', get_template_directory_uri() . '/assets/css/lp-creation.css');
+    wp_enqueue_script('lp-types-toggle', get_template_directory_uri() . '/assets/js/lp-types-toggle.js', array(), null, true);
   }
 }
 add_action('wp_enqueue_scripts', 'enqueue_theme_scripts');
