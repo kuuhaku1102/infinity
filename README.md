@@ -6,4 +6,4 @@ WordPress Theme - Infinity Design
 This repository is configured with GitHub Actions for automatic deployment to ConoHa Wing.
 
 ## Test
-Testing deployment after fixing directory permissions.
+Testing deployment after updating SSH_PRIVATE_KEY.
