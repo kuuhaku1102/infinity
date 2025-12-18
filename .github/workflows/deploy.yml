@@ -25,7 +25,7 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
           local_path: ./
-          remote_path: /public_html/202511050046535v438e.conohawing.com/wp-content/themes/infinity-design/
+          remote_path: /home/c8321079/public_html/202511050046535v438e.conohawing.com/wp-content/themes/infinity-design/
           sftp_only: true
           delete_remote_files: false
           args: "--exclude='.git/' --exclude='.github/' --exclude='*.py' --exclude='*.yml' --exclude='README.md' --exclude='.DS_Store'"
