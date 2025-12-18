@@ -29,6 +29,9 @@
 	<!-- Animations -->
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/website-animations.css">
 
+	<!-- Ad Page Sections -->
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/ad-page-sections.css">
+
 	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
 
 	<!-- Google Fonts 読み込み（head内 or 上部に配置） -->

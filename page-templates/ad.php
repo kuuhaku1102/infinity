@@ -114,6 +114,344 @@ get_header();
 
     
 	<section class="feature">
+<!-- 最新テクノロジー活用セクション -->
+<section class="tech-innovation-section">
+  <div class="infinity-container">
+    <h3 class="section-title animate-on-scroll fade-in-up">最新テクノロジーで広告運用を革新</h3>
+    <p class="section-subtitle animate-on-scroll fade-in-up delay-2">
+      AI・API・自動化技術を駆使し、<strong class="infinity-highlight">圧倒的な成果とスピード</strong>を実現します。
+    </p>
+
+    <div class="tech-innovation-grid">
+      <!-- AI広告最適化エンジン -->
+      <div class="tech-card">
+        <div class="tech-icon">
+          <i class="fas fa-brain"></i>
+        </div>
+        <h4>AI広告最適化エンジン</h4>
+        <p class="tech-description">機械学習を活用して過去の広告データから最適なパターンを分析</p>
+        <ul>
+          <li><strong>NotebookLM連携：</strong>100件以上の過去事例から「勝ちパターン」を学習し、新規案件に適用</li>
+          <li><strong>予測モデル：</strong>広告クリエイティブの反応予測と自動最適化による効果向上</li>
+          <li><strong>運用者判断の自動化：</strong>作業時間90%削減、同時に平均CVR 25%向上</li>
+        </ul>
+      </div>
+
+      <!-- API広告自動制御 -->
+      <div class="tech-card">
+        <div class="tech-icon">
+          <i class="fas fa-code"></i>
+        </div>
+        <h4>API広告自動制御</h4>
+        <p class="tech-description">プラットフォームをまたいだ自動運用で24時間365日の最適化を実現</p>
+        <ul>
+          <li><strong>Meta API × Python：</strong>パフォーマンス低下広告の自動停止と予算再配分システム</li>
+          <li><strong>クロスプラットフォーム連携：</strong>Google/Meta/LINE間でのデータ統合と最適配分</li>
+          <li><strong>自動レポートシステム：</strong>深夜のデータ集計・分析と初時の自動レポート配信</li>
+        </ul>
+      </div>
+
+      <!-- データ解析の自動化 -->
+      <div class="tech-card">
+        <div class="tech-icon">
+          <i class="fas fa-chart-line"></i>
+        </div>
+        <h4>データ解析の自動化</h4>
+        <p class="tech-description">複数ツールからのデータ統合と自動分析によるインサイト抽出</p>
+        <ul>
+          <li><strong>DATEBEAT × GA4連携：</strong>ユーザー行動と広告効果の統合分析による改善点特定</li>
+          <li><strong>Clarity行動分析：</strong>ヒートマップとユーザー録画の自動タグ付けで改善箇所を特定</li>
+        </ul>
+      </div>
+
+      <!-- テクノロジー活用の成果 -->
+      <div class="tech-card highlight-card">
+        <div class="tech-icon">
+          <i class="fas fa-rocket"></i>
+        </div>
+        <h4>テクノロジー活用の成果</h4>
+        <p class="tech-description">自動化技術導入による具体的な改善効果</p>
+        <ul>
+          <li><strong>意思決定速度：</strong>データ分析〜施策実行までのリードタイム 72時間 → 4時間に短縮</li>
+          <li><strong>リソース効果：</strong>同じ人員で3倍の広告アカウント運用が可能に</li>
+          <li><strong>費用対効果：</strong>広告費用対成果比率が平均35%改善</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 勝ちパターンの学習と再現セクション -->
+<section class="ai-learning-section">
+  <div class="infinity-container">
+    <h3 class="section-title animate-on-scroll fade-in-up">AIが過去の成功を学習し、新規案件で再現</h3>
+    <p class="section-subtitle animate-on-scroll fade-in-up delay-2">
+      100件以上の実績から導き出された<strong class="infinity-highlight">勝ちパターン</strong>で、初月から高い成果を実現します。
+    </p>
+
+    <div class="ai-learning-flow">
+      <div class="flow-step">
+        <div class="step-number">1</div>
+        <div class="step-icon"><i class="fas fa-database"></i></div>
+        <h4>過去データの収集・分析</h4>
+        <p>過去100件以上の広告・LP実績をデータベース化</p>
+      </div>
+      <div class="flow-arrow"><i class="fas fa-arrow-right"></i></div>
+      <div class="flow-step">
+        <div class="step-number">2</div>
+        <div class="step-icon"><i class="fas fa-brain"></i></div>
+        <h4>NotebookLMによる学習</h4>
+        <p>AIが成功要因を抽出・パターン化</p>
+      </div>
+      <div class="flow-arrow"><i class="fas fa-arrow-right"></i></div>
+      <div class="flow-step">
+        <div class="step-number">3</div>
+        <div class="step-icon"><i class="fas fa-magic"></i></div>
+        <h4>新規案件への適用</h4>
+        <p>類似業種・商材の勝ちパターンを自動適用</p>
+      </div>
+      <div class="flow-arrow"><i class="fas fa-arrow-right"></i></div>
+      <div class="flow-step">
+        <div class="step-number">4</div>
+        <div class="step-icon"><i class="fas fa-sync"></i></div>
+        <h4>継続的な精度向上</h4>
+        <p>新たな成功事例を学習し続け、精度が向上</p>
+      </div>
+    </div>
+
+    <div class="ai-learning-results">
+      <h4 class="results-title">得られる効果</h4>
+      <div class="results-grid">
+        <div class="result-item">
+          <div class="result-icon"><i class="fas fa-bolt"></i></div>
+          <h5>立ち上げスピードの飛躍的向上</h5>
+          <p>通常2週間かかる戦略設計が2日に短縮</p>
+        </div>
+        <div class="result-item">
+          <div class="result-icon"><i class="fas fa-chart-line"></i></div>
+          <h5>初期成果の確度向上</h5>
+          <p>成功パターンの再現により初月から高いROAS</p>
+        </div>
+        <div class="result-item">
+          <div class="result-icon"><i class="fas fa-sync-alt"></i></div>
+          <h5>継続的な改善サイクル</h5>
+          <p>自動的に最新の成功事例を取り込み精度向上</p>
+        </div>
+      </div>
+
+      <div class="stats-row">
+        <div class="stat-item">
+          <div class="stat-number" data-target="85%以上">85<span>%以上</span></div>
+          <div class="stat-label">設計時間短縮</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="2.3倍">2.3<span>倍</span></div>
+          <div class="stat-label">初期CVR向上（平均）</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="92%">92<span>%</span></div>
+          <div class="stat-label">再現性（成功率）</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 自動化PDCAの仕組みセクション -->
+<section class="automated-pdca-section">
+  <div class="infinity-container">
+    <h3 class="section-title animate-on-scroll fade-in-up">Meta API × Pythonで実現する自動化PDCA</h3>
+    <p class="section-subtitle animate-on-scroll fade-in-up delay-2">
+      広告運用の<strong class="infinity-highlight">90%を自動化</strong>し、戦略立案に集中できる環境を提供します。
+    </p>
+
+    <div class="pdca-flow">
+      <div class="pdca-step">
+        <div class="pdca-icon"><i class="fas fa-download"></i></div>
+        <h4>データ自動収集</h4>
+        <p>Meta APIを利用した広告パフォーマンスデータの自動取得</p>
+        <ul>
+          <li>クリエイティブ別CV/CPC/CTR</li>
+          <li>時間帯・ターゲット別反応</li>
+        </ul>
+      </div>
+      <div class="pdca-arrow"><i class="fas fa-arrow-down"></i></div>
+      <div class="pdca-step">
+        <div class="pdca-icon"><i class="fas fa-chart-bar"></i></div>
+        <h4>自動分析</h4>
+        <p>Pythonによるパフォーマンス分析と評価</p>
+        <ul>
+          <li>パターン抽出と相関分析</li>
+          <li>KPI基準による自動判定</li>
+        </ul>
+      </div>
+      <div class="pdca-arrow"><i class="fas fa-arrow-down"></i></div>
+      <div class="pdca-step">
+        <div class="pdca-icon"><i class="fas fa-cogs"></i></div>
+        <h4>自動最適化</h4>
+        <p>成果に基づく広告の自動調整</p>
+        <ul>
+          <li>低CV広告の自動停止</li>
+          <li>予算配分の自動調整</li>
+        </ul>
+      </div>
+      <div class="pdca-arrow"><i class="fas fa-arrow-down"></i></div>
+      <div class="pdca-step">
+        <div class="pdca-icon"><i class="fas fa-file-alt"></i></div>
+        <h4>自動レポート</h4>
+        <p>分析結果の自動可視化と配信</p>
+        <ul>
+          <li>日次/週次レポート自動配信</li>
+          <li>次アクション提案</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="pdca-benefits">
+      <div class="benefit-card">
+        <div class="benefit-icon"><i class="fas fa-clock"></i></div>
+        <h5>運用工数90%削減</h5>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon"><i class="fas fa-tachometer-alt"></i></div>
+        <h5>意思決定のスピード化</h5>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon"><i class="fas fa-arrow-up"></i></div>
+        <h5>平均CV 140%改善</h5>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- InfinityDesignだけの4つの価値セクション -->
+<section class="unique-value-section">
+  <div class="infinity-container">
+    <h3 class="section-title animate-on-scroll fade-in-up">InfinityDesignだけの4つの価値</h3>
+    <p class="section-subtitle animate-on-scroll fade-in-up delay-2">
+      テクノロジーと成果主義を両立する、<strong class="infinity-highlight">次世代型マーケティング支援</strong>
+    </p>
+
+    <div class="value-grid">
+      <div class="value-card">
+        <div class="value-number">1</div>
+        <div class="value-icon"><i class="fas fa-brain"></i></div>
+        <h4>NotebookLMによる「勝ちパターンの継承」</h4>
+        <p>過去100件以上の広告・LP実績をAIが学習。再現性のある設計を短時間で出力可能。</p>
+      </div>
+
+      <div class="value-card">
+        <div class="value-number">2</div>
+        <div class="value-icon"><i class="fas fa-sync"></i></div>
+        <h4>Meta API × Python「日次PDCAの自動化」</h4>
+        <p>クリエイティブごとのCV/CPC/CTRを評価し、低CV広告は自動停止／入替。運用者の作業時間を90%以上カット。</p>
+      </div>
+
+      <div class="value-card">
+        <div class="value-number">3</div>
+        <div class="value-icon"><i class="fas fa-chart-line"></i></div>
+        <h4>売れる構造まで踏み込むLP設計</h4>
+        <p>「デザイン」ではなく、「売れる導線」を設計。CVR平均2.3倍アップ。</p>
+      </div>
+
+      <div class="value-card">
+        <div class="value-number">4</div>
+        <div class="value-icon"><i class="fas fa-chart-pie"></i></div>
+        <h4>数字で意思決定できる環境の提供</h4>
+        <p>DATEBEAT × LookerStudioで、全広告のROI／CVR／改善点が一目瞭然。感覚ではなくデータに基づいた戦略構築。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 対応可能なメディアセクション -->
+<section class="media-platforms-section">
+  <div class="infinity-container">
+    <h3 class="section-title animate-on-scroll fade-in-up">対応可能なメディア</h3>
+    <p class="section-subtitle animate-on-scroll fade-in-up delay-2">
+      主要プラットフォームからニッチメディアまで、<br>
+      ビジネス目的に合わせて最適な媒体を選定・運用いたします。
+    </p>
+
+    <div class="media-grid">
+      <div class="media-category">
+        <h4>主要プラットフォーム</h4>
+        <div class="media-items">
+          <div class="media-item">
+            <i class="fab fa-google"></i>
+            <span>Google</span>
+          </div>
+          <div class="media-item">
+            <i class="fab fa-youtube"></i>
+            <span>YouTube</span>
+          </div>
+          <div class="media-item">
+            <i class="fab fa-meta"></i>
+            <span>Meta</span>
+          </div>
+          <div class="media-item">
+            <i class="fab fa-facebook"></i>
+            <span>Facebook</span>
+          </div>
+          <div class="media-item">
+            <i class="fab fa-instagram"></i>
+            <span>Instagram</span>
+          </div>
+          <div class="media-item">
+            <i class="fab fa-line"></i>
+            <span>LINE</span>
+          </div>
+          <div class="media-item">
+            <i class="fab fa-tiktok"></i>
+            <span>TikTok</span>
+          </div>
+          <div class="media-item">
+            <i class="fab fa-x-twitter"></i>
+            <span>X (Twitter)</span>
+          </div>
+          <div class="media-item">
+            <i class="fab fa-yahoo"></i>
+            <span>Yahoo!</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="media-category">
+        <h4>ニッチメディア</h4>
+        <div class="media-items">
+          <div class="media-item">
+            <i class="fas fa-newspaper"></i>
+            <span>SmartNews</span>
+          </div>
+          <div class="media-item">
+            <i class="fas fa-newspaper"></i>
+            <span>Gunosy</span>
+          </div>
+          <div class="media-item">
+            <i class="fas fa-tv"></i>
+            <span>ABEMA</span>
+          </div>
+          <div class="media-item">
+            <i class="fas fa-shopping-bag"></i>
+            <span>メルカリ</span>
+          </div>
+          <div class="media-item">
+            <i class="fas fa-ad"></i>
+            <span>Criteo</span>
+          </div>
+          <div class="media-item">
+            <i class="fab fa-microsoft"></i>
+            <span>Microsoft</span>
+          </div>
+          <div class="media-item">
+            <i class="fab fa-linkedin"></i>
+            <span>LinkedIn</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 		<h3>他社との違い</h3>
 <div class="infinity-feature-row">
   <!-- 左：Lottieアニメ -->

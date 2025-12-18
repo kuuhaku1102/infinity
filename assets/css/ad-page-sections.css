@@ -1,0 +1,553 @@
+/* 広告運用ページ 追加セクション用CSS */
+
+/* 最新テクノロジー活用セクション */
+.tech-innovation-section {
+  padding: 80px 0;
+  background: #ffffff;
+}
+
+.tech-innovation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.tech-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 30px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.tech-card::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 4px;
+  height: 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  transition: height 0.3s ease;
+}
+
+.tech-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(102, 126, 234, 0.15);
+}
+
+.tech-card:hover::before {
+  height: 100%;
+}
+
+.tech-card.highlight-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #ffffff;
+  border: none;
+}
+
+.tech-card.highlight-card h4,
+.tech-card.highlight-card p,
+.tech-card.highlight-card li {
+  color: #ffffff;
+}
+
+.tech-icon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.tech-card.highlight-card .tech-icon {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.tech-card h4 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 12px;
+}
+
+.tech-description {
+  font-size: 0.95rem;
+  color: #4a5568;
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.tech-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tech-card ul li {
+  font-size: 0.9rem;
+  color: #4a5568;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+  line-height: 1.6;
+}
+
+.tech-card ul li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #667eea;
+  font-weight: bold;
+}
+
+.tech-card.highlight-card ul li::before {
+  color: #ffffff;
+}
+
+/* 勝ちパターンの学習と再現セクション */
+.ai-learning-section {
+  padding: 80px 0;
+  background: #f8f9fa;
+}
+
+.ai-learning-flow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.flow-step {
+  flex: 1;
+  min-width: 200px;
+  background: #ffffff;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 30px 20px;
+  text-align: center;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.flow-step:hover {
+  transform: translateY(-5px);
+  border-color: #667eea;
+  box-shadow: 0 8px 16px rgba(102, 126, 234, 0.15);
+}
+
+.step-number {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.step-icon {
+  font-size: 40px;
+  color: #667eea;
+  margin-bottom: 15px;
+}
+
+.flow-step h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 10px;
+}
+
+.flow-step p {
+  font-size: 0.9rem;
+  color: #4a5568;
+  line-height: 1.6;
+}
+
+.flow-arrow {
+  font-size: 24px;
+  color: #667eea;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .flow-arrow {
+    transform: rotate(90deg);
+  }
+}
+
+.ai-learning-results {
+  margin-top: 60px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.results-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2d3748;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.result-item {
+  text-align: center;
+}
+
+.result-icon {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.result-item h5 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 10px;
+}
+
+.result-item p {
+  font-size: 0.9rem;
+  color: #4a5568;
+  line-height: 1.6;
+}
+
+.stats-row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 40px;
+  padding-top: 40px;
+  border-top: 2px solid #e2e8f0;
+}
+
+.stat-item {
+  text-align: center;
+  flex: 1;
+  min-width: 150px;
+}
+
+.stat-number {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 10px;
+}
+
+.stat-number span {
+  font-size: 2rem;
+}
+
+.stat-label {
+  font-size: 0.95rem;
+  color: #4a5568;
+  font-weight: 600;
+}
+
+/* 自動化PDCAの仕組みセクション */
+.automated-pdca-section {
+  padding: 80px 0;
+  background: #ffffff;
+}
+
+.pdca-flow {
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.pdca-step {
+  background: #ffffff;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.pdca-step:hover {
+  border-color: #667eea;
+  box-shadow: 0 8px 16px rgba(102, 126, 234, 0.15);
+}
+
+.pdca-icon {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.pdca-step h4 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 12px;
+}
+
+.pdca-step p {
+  font-size: 0.95rem;
+  color: #4a5568;
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.pdca-step ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pdca-step ul li {
+  font-size: 0.9rem;
+  color: #4a5568;
+  margin-bottom: 8px;
+  padding-left: 20px;
+  position: relative;
+  line-height: 1.6;
+}
+
+.pdca-step ul li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #667eea;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.pdca-arrow {
+  text-align: center;
+  font-size: 28px;
+  color: #667eea;
+  margin: 10px 0;
+}
+
+.pdca-benefits {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.benefit-card {
+  flex: 1;
+  min-width: 200px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 30px 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.benefit-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(102, 126, 234, 0.3);
+}
+
+.benefit-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.benefit-card h5 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* InfinityDesignだけの4つの価値セクション */
+.unique-value-section {
+  padding: 80px 0;
+  background: #f8f9fa;
+}
+
+.value-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.value-card {
+  background: #ffffff;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 40px 30px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.value-card:hover {
+  transform: translateY(-8px);
+  border-color: #667eea;
+  box-shadow: 0 12px 24px rgba(102, 126, 234, 0.15);
+}
+
+.value-number {
+  position: absolute;
+  top: -20px;
+  left: 30px;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 8px rgba(102, 126, 234, 0.3);
+}
+
+.value-icon {
+  font-size: 50px;
+  color: #667eea;
+  margin-bottom: 20px;
+}
+
+.value-card h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.value-card p {
+  font-size: 0.95rem;
+  color: #4a5568;
+  line-height: 1.7;
+}
+
+/* 対応可能なメディアセクション */
+.media-platforms-section {
+  padding: 80px 0;
+  background: #ffffff;
+}
+
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.media-category h4 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #667eea;
+}
+
+.media-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 15px;
+}
+
+.media-item {
+  background: #ffffff;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 20px 15px;
+  text-align: center;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.media-item:hover {
+  border-color: #667eea;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(102, 126, 234, 0.15);
+}
+
+.media-item i {
+  font-size: 32px;
+  color: #667eea;
+}
+
+.media-item span {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+  .tech-innovation-grid,
+  .value-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ai-learning-flow {
+    flex-direction: column;
+  }
+
+  .stats-row {
+    flex-direction: column;
+  }
+
+  .pdca-benefits {
+    flex-direction: column;
+  }
+
+  .media-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .media-items {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
+}
