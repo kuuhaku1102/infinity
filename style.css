@@ -6596,17 +6596,19 @@ Version: 1.3
 
 /* Modern Works Card */
 .works-card-modern {
-  background: #fff;
-  border-radius: 20px;
+  background: #ffffff;
+  border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  position: relative;
+}  position: relative;
 }
 
 .works-card-modern:hover {
   transform: translateY(-12px);
-  box-shadow: 0 12px 40px rgba(102, 126, 234, 0.25);
+  box-shadow: 0 20px 40px rgba(102, 126, 234, 0.25);
+  border-color: #667eea;
 }
 
 .card-link {
@@ -6618,23 +6620,18 @@ Version: 1.3
 .card-image-wrapper {
   position: relative;
   width: 100%;
-  padding-top: 120%;
   overflow: hidden;
-  background: #f3f4f6;
+  background: #ffffff;
 }
 
-.card-image {
-  position: absolute;
-  top: 0;
-  left: 0;
+.card-image-wrapper img {
   width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: center;
+  height: auto;
+  display: block;
   transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.works-card-modern:hover .card-image {
+.works-card-modern:hover .card-image-wrapper img {
   transform: scale(1.05);
 }
 
