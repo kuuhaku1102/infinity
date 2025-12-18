@@ -72,6 +72,11 @@ function enqueue_theme_scripts() {
   if (is_page_template('page-templates/data-analytics.php')) {
     wp_enqueue_style('data-analytics-css', get_template_directory_uri() . '/assets/css/data-analytics.css');
   }
+  
+  // Why Choose Us page CSS
+  if (is_page_template('page-templates/why-choose-us.php')) {
+    wp_enqueue_style('why-choose-us-css', get_template_directory_uri() . '/assets/css/why-choose-us.css');
+  }
 }
 add_action('wp_enqueue_scripts', 'enqueue_theme_scripts');
 
