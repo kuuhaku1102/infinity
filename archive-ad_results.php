@@ -5,6 +5,31 @@
 
 <!-- ヒーローセクション -->
 <section class="ad-results-hero">
+  <!-- SVG背景アニメーション -->
+  <svg class="hero-bg-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+    <defs>
+      <linearGradient id="waveGradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:rgba(255,255,255,0.1);stop-opacity:1" />
+        <stop offset="100%" style="stop-color:rgba(255,255,255,0.05);stop-opacity:1" />
+      </linearGradient>
+      <linearGradient id="waveGradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:rgba(255,255,255,0.05);stop-opacity:1" />
+        <stop offset="100%" style="stop-color:rgba(255,255,255,0.1);stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    <path class="wave wave1" fill="url(#waveGradient1)" d="M0,160L48,176C96,192,192,224,288,224C384,224,480,192,576,165.3C672,139,768,117,864,128C960,139,1056,181,1152,186.7C1248,192,1344,160,1392,144L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+    <path class="wave wave2" fill="url(#waveGradient2)" d="M0,224L48,213.3C96,203,192,181,288,186.7C384,192,480,224,576,229.3C672,235,768,213,864,197.3C960,181,1056,171,1152,181.3C1248,192,1344,224,1392,240L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+  </svg>
+  
+  <!-- 浮遊する円 -->
+  <div class="floating-circles">
+    <div class="circle circle1"></div>
+    <div class="circle circle2"></div>
+    <div class="circle circle3"></div>
+    <div class="circle circle4"></div>
+    <div class="circle circle5"></div>
+  </div>
+  
   <div class="ad-results-hero-inner">
     <h1 class="ad-results-title">AD RESULTS</h1>
     <p class="ad-results-subtitle">

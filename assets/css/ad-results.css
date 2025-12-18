@@ -9,10 +9,121 @@
   overflow: hidden;
 }
 
+/* SVG背景アニメーション */
+.hero-bg-svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.wave {
+  animation: waveMove 8s ease-in-out infinite;
+}
+
+.wave1 {
+  animation-delay: 0s;
+}
+
+.wave2 {
+  animation-delay: -4s;
+}
+
+@keyframes waveMove {
+  0%, 100% {
+    transform: translateX(0) translateY(0);
+  }
+  50% {
+    transform: translateX(-25px) translateY(-10px);
+  }
+}
+
+/* 浮遊する円 */
+.floating-circles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  animation: float 20s infinite ease-in-out;
+}
+
+.circle1 {
+  width: 80px;
+  height: 80px;
+  top: 10%;
+  left: 10%;
+  animation-delay: 0s;
+}
+
+.circle2 {
+  width: 120px;
+  height: 120px;
+  top: 60%;
+  left: 80%;
+  animation-delay: -5s;
+}
+
+.circle3 {
+  width: 60px;
+  height: 60px;
+  top: 30%;
+  left: 70%;
+  animation-delay: -10s;
+}
+
+.circle4 {
+  width: 100px;
+  height: 100px;
+  top: 70%;
+  left: 20%;
+  animation-delay: -15s;
+}
+
+.circle5 {
+  width: 90px;
+  height: 90px;
+  top: 20%;
+  left: 50%;
+  animation-delay: -7s;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: 0.3;
+  }
+  25% {
+    transform: translateY(-30px) translateX(20px) scale(1.1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translateY(-50px) translateX(-20px) scale(0.9);
+    opacity: 0.3;
+  }
+  75% {
+    transform: translateY(-30px) translateX(30px) scale(1.05);
+    opacity: 0.4;
+  }
+}
+
 .ad-results-hero-inner {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  position: relative;
+  z-index: 2;
 }
 
 .ad-results-title {
