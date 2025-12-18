@@ -6,70 +6,9 @@
 <!-- ヒーローセクション -->
 <section class="ad-results-hero">
   <div class="ad-results-hero-inner">
-    <!-- SVGタイトル -->
-    <svg viewBox="0 0 800 200" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" class="ad-results-svg-title">
-      <defs>
-        <linearGradient id="adResultsGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
-          <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
-        </linearGradient>
-        <filter id="adResultsShadow">
-          <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3"/>
-        </filter>
-      </defs>
-      
-      <style>
-        .ad-results-stroke-text {
-          font-family: 'Caveat', cursive;
-          font-size: 120px;
-          fill: none;
-          stroke: url(#adResultsGradient);
-          stroke-width: 3;
-          stroke-dasharray: 1500;
-          stroke-dashoffset: 1500;
-          animation: adResultsDraw 2s forwards;
-          filter: url(#adResultsShadow);
-        }
-        
-        .ad-results-fill-text {
-          font-family: 'Caveat', cursive;
-          font-size: 120px;
-          fill: url(#adResultsGradient);
-          opacity: 0;
-          animation: adResultsFillIn 0.5s forwards;
-          animation-delay: 2s;
-          filter: url(#adResultsShadow);
-        }
-        
-        @keyframes adResultsDraw {
-          to {
-            stroke-dashoffset: 0;
-          }
-        }
-        
-        @keyframes adResultsFillIn {
-          to {
-            opacity: 1;
-          }
-        }
-      </style>
-      
-      <!-- 書き順アニメーション -->
-      <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" class="ad-results-stroke-text">
-        AD RESULTS
-      </text>
-      
-      <!-- グラデーションで塗りつぶす -->
-      <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" class="ad-results-fill-text">
-        AD RESULTS
-      </text>
-    </svg>
-    
-    <h2 class="ad-results-subtitle animate-on-scroll fade-in-up">
-      データドリブンな広告運用で実現した<span class="highlight-text">成果事例</span>
-    </h2>
-    <p class="ad-results-lead animate-on-scroll fade-in-up delay-1">
-      InfinityDesignが手がけた広告運用の実績をご紹介します。業種・業界を問わず、データ分析と最適化により、クライアント様のビジネス成長をサポートしています。
+    <h1 class="ad-results-title">AD RESULTS</h1>
+    <p class="ad-results-subtitle">
+      データドリブンな広告運用で実現した成果事例
     </p>
   </div>
 </section>

@@ -2,8 +2,8 @@
 
 /* ヒーローセクション */
 .ad-results-hero {
-  padding: 80px 0 60px;
-  background: #f8f9fa;
+  padding: 120px 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -15,54 +15,21 @@
   padding: 0 20px;
 }
 
-.ad-results-svg-title {
-  width: 100%;
-  max-width: 800px;
-  height: auto;
-  margin: 0 auto 30px;
-  display: block;
+.ad-results-title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 30px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 .ad-results-subtitle {
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: #2d3748;
-  margin-bottom: 20px;
-  line-height: 1.6;
-}
-
-.ad-results-subtitle .highlight-text {
-  color: #667eea;
-  position: relative;
-  display: inline-block;
-}
-
-.ad-results-subtitle .highlight-text::after {
-  content: '';
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  width: 100%;
-  height: 3px;
-  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
-  animation: underlineExpand 0.8s ease-out forwards;
-  animation-delay: 2.5s;
-  transform-origin: left;
-  transform: scaleX(0);
-}
-
-@keyframes underlineExpand {
-  to {
-    transform: scaleX(1);
-  }
-}
-
-.ad-results-lead {
-  font-size: 1rem;
-  color: #4a5568;
-  line-height: 2;
-  max-width: 900px;
-  margin: 0 auto;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0;
+  line-height: 1.8;
 }
 
 /* 実績セクション */
@@ -305,19 +272,15 @@
 /* レスポンシブ対応 */
 @media (max-width: 768px) {
   .ad-results-hero {
-    padding: 60px 0 40px;
+    padding: 80px 0;
   }
   
-  .ad-results-svg-title {
-    max-width: 600px;
+  .ad-results-title {
+    font-size: 2.5rem;
   }
   
   .ad-results-subtitle {
-    font-size: 1.4rem;
-  }
-  
-  .ad-results-lead {
-    font-size: 0.95rem;
+    font-size: 1.1rem;
   }
   
   .case-study-section {
