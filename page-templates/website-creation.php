@@ -36,7 +36,7 @@ get_header();
 
     .stroke {
       fill: none;
-      stroke: #ffffff;
+      stroke: #667eea;
       stroke-width: 3;
       stroke-dasharray: 2000;
       stroke-dashoffset: 2000;
@@ -44,7 +44,7 @@ get_header();
     }
 
     .fill {
-      fill: #ffffff;
+      fill: url(#gradient);
       opacity: 0;
       animation: fillIn 1.2s ease-out forwards;
       animation-delay: 2s;
@@ -92,7 +92,13 @@ get_header();
 
   </style>
 
-
+  <!-- グラデーション定義 -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
 
   <!-- 1行目 -->
 
