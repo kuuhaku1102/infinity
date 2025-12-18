@@ -62,6 +62,11 @@ function enqueue_theme_scripts() {
   if (is_page_template('page-templates/about.php')) {
     wp_enqueue_style('about-css', get_template_directory_uri() . '/assets/css/about.css');
   }
+  
+  // SEO Consulting page CSS
+  if (is_page_template('page-templates/seo-consulting.php')) {
+    wp_enqueue_style('seo-consulting-css', get_template_directory_uri() . '/assets/css/seo-consulting.css');
+  }
 }
 add_action('wp_enqueue_scripts', 'enqueue_theme_scripts');
 
