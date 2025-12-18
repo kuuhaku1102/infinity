@@ -17,15 +17,21 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       
-      - name: Deploy to ConoHa Wing via SFTP
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.6
-        with:
-          server: ${{ secrets.SSH_HOST }}
-          port: ${{ secrets.SSH_PORT }}
-          username: ${{ secrets.SSH_USER }}
-          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-          local_path: ./
-          remote_path: /home/c8321079/public_html/202511050046535v438e.conohawing.com/wp-content/themes/infinity-design/
-          sftp_only: true
-          delete_remote_files: false
-          args: "--exclude='.git/' --exclude='.github/' --exclude='*.py' --exclude='*.yml' --exclude='README.md' --exclude='.DS_Store'"
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -p ${{ secrets.SSH_PORT }} -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+      
+      - name: Deploy via rsync over SSH
+        run: |
+          rsync -avz \
+            -e "ssh -i ~/.ssh/id_rsa -p ${{ secrets.SSH_PORT }} -o StrictHostKeyChecking=no" \
+            --exclude='.git/' \
+            --exclude='.github/' \
+            --exclude='*.py' \
+            --exclude='*.yml' \
+            --exclude='README.md' \
+            --exclude='.DS_Store' \
+            ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/${{ secrets.SSH_USER }}/public_html/202511050046535v438e.conohawing.com/wp-content/themes/infinity-design/
