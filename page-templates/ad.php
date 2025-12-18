@@ -1159,27 +1159,25 @@ get_header();
 
         class="pricing-lottie" speed="1" autoplay loop></dotlottie-wc>
 
-      <div class="pricing-title">プレミアムプラン</div>
+      <div class="pricing-title">広告+LPセット</div>
 
-      <div class="pricing-price">¥1,350,000〜</div>
+      <div class="pricing-price">お見積もり</div>
 
       <div class="pricing-summary">
 
-        フルオーダーメイド / Webアプリ / 決済・会員・AI連携 / 専任サポート
+        広告運用とLP制作をセットで提供 / 成果にコミットする統合ソリューション
 
       </div>
 
       <ul class="pricing-details">
 
-        <li>テキスト構築 / ヒアリング</li>
+        <li>戦略的LP設計・制作</li>
 
-        <li>デザイン / コーディング</li>
+        <li>複数媒体での広告運用</li>
 
-        <li>レスポンシブ対応 / 管理画面開発</li>
+        <li>A/Bテスト・最適化</li>
 
-        <li>API連携 / EC / 会員制 / 決済 / 機能開発</li>
-
-        <li>対応言語：HTML / CSS / JS / PHP / React / Node / TS / その他</li>
+        <li>専任担当による継続サポート</li>
 
       </ul>
 
