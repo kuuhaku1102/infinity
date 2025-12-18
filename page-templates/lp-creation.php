@@ -142,54 +142,44 @@ get_header();
 
     
     <!-- LP制作の課題と重要性セクション（新規追加） -->
-    <section class="lp-challenge-section" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 80px 20px; margin: 60px 0; border-radius: 20px; color: white;">
-      <h3 style="color: white; text-align: center; margin-bottom: 40px;">
+    <section class="lp-challenge-section">
+      <h3>
         LP制作の課題と重要性
-        <span class="infinity-badge" style="background: rgba(255,255,255,0.2); color: white; margin-left: 10px;">なぜ多くのLPが集客に失敗するのか？</span>
+        <span class="infinity-badge lp-challenge-badge">なぜ多くのLPが集客に失敗するのか？</span>
       </h3>
       
-      <div class="infinity-feature-row" style="display: flex; gap: 40px; align-items: center; flex-wrap: wrap;">
-        <div class="infinity-feature-left" style="flex: 1; min-width: 300px;">
-          <h4 style="color: white; font-size: 24px; margin-bottom: 20px;">現状の課題</h4>
-          <p style="color: rgba(255,255,255,0.95); line-height: 1.8; margin-bottom: 30px;">
+      <div class="lp-challenge-content">
+        <div class="lp-challenge-left">
+          <h4>現状の課題</h4>
+          <p>
             多くの企業は「集客できない」「問い合わせが少ない」「コンバージョン率が低い」といった課題を抱えています。原因は複数のスキルセットが必要なLP制作を1社で完結できていないことにあります。
           </p>
           
-          <h4 style="color: white; font-size: 24px; margin-bottom: 20px;">成功に必要な要素</h4>
-          <ul style="color: rgba(255,255,255,0.95); line-height: 2; list-style: none; padding-left: 0;">
-            <li style="padding-left: 1.5em; position: relative;">
-              <span style="position: absolute; left: 0;">✓</span> サイト制作と継続的な改善スキル
-            </li>
-            <li style="padding-left: 1.5em; position: relative;">
-              <span style="position: absolute; left: 0;">✓</span> 効果的な広告運用の専門知識
-            </li>
-            <li style="padding-left: 1.5em; position: relative;">
-              <span style="position: absolute; left: 0;">✓</span> 心に響くキャッチコピー作成能力
-            </li>
-            <li style="padding-left: 1.5em; position: relative;">
-              <span style="position: absolute; left: 0;">✓</span> データ解析に基づく改善ノウハウ
-            </li>
-            <li style="padding-left: 1.5em; position: relative;">
-              <span style="position: absolute; left: 0;">✓</span> 差別化を生む高度なプログラミング技術
-            </li>
+          <h4>成功に必要な要素</h4>
+          <ul>
+            <li><span>✓</span> サイト制作と継続的な改善スキル</li>
+            <li><span>✓</span> 効果的な広告運用の専門知識</li>
+            <li><span>✓</span> 心に響くキャッチコピー作成能力</li>
+            <li><span>✓</span> データ解析に基づく改善ノウハウ</li>
+            <li><span>✓</span> 差別化を生む高度なプログラミング技術</li>
           </ul>
         </div>
         
-        <div class="infinity-feature-right" style="flex: 1; min-width: 300px; text-align: center;">
-          <div style="background: rgba(255,255,255,0.1); padding: 40px; border-radius: 15px; backdrop-filter: blur(10px);">
-            <div style="font-size: 18px; margin-bottom: 20px; color: rgba(255,255,255,0.9);">CVRファネル</div>
-            <div style="display: flex; flex-direction: column; gap: 15px; margin-bottom: 30px;">
-              <div style="background: rgba(255,255,255,0.2); padding: 15px; border-radius: 10px; font-size: 16px;">認知 (Awareness)</div>
-              <div style="color: rgba(255,255,255,0.7);">↓</div>
-              <div style="background: rgba(255,255,255,0.25); padding: 15px; border-radius: 10px; font-size: 16px;">興味 (Interest)</div>
-              <div style="color: rgba(255,255,255,0.7);">↓</div>
-              <div style="background: rgba(255,255,255,0.3); padding: 15px; border-radius: 10px; font-size: 16px;">検討 (Consideration)</div>
-              <div style="color: rgba(255,255,255,0.7);">↓</div>
-              <div style="background: rgba(255,255,255,0.35); padding: 15px; border-radius: 10px; font-size: 16px;">行動 (Action)</div>
-              <div style="color: rgba(255,255,255,0.7);">↓</div>
-              <div style="background: rgba(255,255,255,0.4); padding: 15px; border-radius: 10px; font-size: 16px; font-weight: bold;">成約 (Conversion)</div>
+        <div class="lp-challenge-right">
+          <div class="cvr-funnel">
+            <div class="cvr-funnel-title">CVRファネル</div>
+            <div class="cvr-funnel-steps">
+              <div class="cvr-step">認知 (Awareness)</div>
+              <div class="cvr-arrow">↓</div>
+              <div class="cvr-step">興味 (Interest)</div>
+              <div class="cvr-arrow">↓</div>
+              <div class="cvr-step">検討 (Consideration)</div>
+              <div class="cvr-arrow">↓</div>
+              <div class="cvr-step">行動 (Action)</div>
+              <div class="cvr-arrow">↓</div>
+              <div class="cvr-step cvr-conversion">成約 (Conversion)</div>
             </div>
-            <div style="background: #ffb300; color: #2d3748; padding: 20px; border-radius: 10px; font-weight: bold; font-size: 18px;">
+            <div class="cvr-cta">
               効果的なLPはCVRを<br>最大3倍に向上
             </div>
           </div>

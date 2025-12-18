@@ -17,36 +17,115 @@
   font-weight: bold;
 }
 
-.lp-challenge-section h4 {
+.lp-challenge-badge {
+  background: rgba(255, 255, 255, 0.2) !important;
+  color: white !important;
+  margin-left: 10px;
+}
+
+.lp-challenge-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.lp-challenge-left h4 {
   color: white;
   font-size: 24px;
   margin-bottom: 20px;
   font-weight: bold;
 }
 
-.lp-challenge-section p {
+.lp-challenge-left p {
   color: rgba(255, 255, 255, 0.95);
   line-height: 1.8;
   margin-bottom: 30px;
   font-size: 16px;
 }
 
-.lp-challenge-section ul {
+.lp-challenge-left ul {
   color: rgba(255, 255, 255, 0.95);
   line-height: 2;
   list-style: none;
   padding-left: 0;
+  margin: 0;
 }
 
-.lp-challenge-section ul li {
+.lp-challenge-left ul li {
   padding-left: 1.5em;
   position: relative;
   margin-bottom: 10px;
 }
 
-.lp-challenge-section ul li span {
+.lp-challenge-left ul li span {
   position: absolute;
   left: 0;
+}
+
+.lp-challenge-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cvr-funnel {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  width: 100%;
+  max-width: 400px;
+}
+
+.cvr-funnel-title {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-weight: bold;
+}
+
+.cvr-funnel-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.cvr-step {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+.cvr-step:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.cvr-conversion {
+  background: rgba(255, 255, 255, 0.4);
+  font-weight: bold;
+}
+
+.cvr-arrow {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-size: 20px;
+}
+
+.cvr-cta {
+  background: #ffb300;
+  color: #2d3748;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5;
 }
 
 /* 6種類のLPサービス詳細セクション */
@@ -196,8 +275,31 @@
     margin-bottom: 30px;
   }
 
-  .lp-challenge-section h4 {
+  .lp-challenge-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .lp-challenge-left h4 {
     font-size: 20px;
+  }
+
+  .cvr-funnel {
+    padding: 30px 20px;
+  }
+
+  .cvr-funnel-title {
+    font-size: 16px;
+  }
+
+  .cvr-step {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .cvr-cta {
+    font-size: 16px;
+    padding: 15px;
   }
 
   .lp-type-card {
