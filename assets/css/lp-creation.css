@@ -2,15 +2,15 @@
 
 /* LP制作の課題と重要性セクション */
 .lp-challenge-section {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: white;
   padding: 80px 20px;
   margin: 60px 0;
   border-radius: 20px;
-  color: white;
+  color: #2d3748;
 }
 
 .lp-challenge-section h3 {
-  color: white;
+  color: #2d3748;
   text-align: center;
   margin-bottom: 40px;
   font-size: 32px;
@@ -18,9 +18,11 @@
 }
 
 .lp-challenge-badge {
-  background: rgba(255, 255, 255, 0.2) !important;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
   color: white !important;
   margin-left: 10px;
+  padding: 8px 16px;
+  border-radius: 20px;
 }
 
 .lp-challenge-content {
@@ -31,21 +33,21 @@
 }
 
 .lp-challenge-left h4 {
-  color: white;
+  color: #2d3748;
   font-size: 24px;
   margin-bottom: 20px;
   font-weight: bold;
 }
 
 .lp-challenge-left p {
-  color: rgba(255, 255, 255, 0.95);
+  color: #4a5568;
   line-height: 1.8;
   margin-bottom: 30px;
   font-size: 16px;
 }
 
 .lp-challenge-left ul {
-  color: rgba(255, 255, 255, 0.95);
+  color: #4a5568;
   line-height: 2;
   list-style: none;
   padding-left: 0;
@@ -70,10 +72,10 @@
 }
 
 .cvr-funnel {
-  background: rgba(255, 255, 255, 0.1);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   padding: 40px;
   border-radius: 15px;
-  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 40px rgba(102, 126, 234, 0.3);
   width: 100%;
   max-width: 400px;
 }
@@ -81,7 +83,7 @@
 .cvr-funnel-title {
   font-size: 18px;
   margin-bottom: 20px;
-  color: rgba(255, 255, 255, 0.9);
+  color: white;
   text-align: center;
   font-weight: bold;
 }
@@ -99,6 +101,7 @@
   border-radius: 10px;
   font-size: 16px;
   text-align: center;
+  color: white;
   transition: background 0.3s ease;
 }
 
@@ -112,7 +115,7 @@
 }
 
 .cvr-arrow {
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
   text-align: center;
   font-size: 20px;
 }
