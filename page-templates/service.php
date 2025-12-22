@@ -74,13 +74,43 @@ get_header();
       <h3 class="category-title">Digital Marketing</h3>
       <p class="category-desc">データドリブンマーケティング</p>
       <div class="service-grid">
-        <a href="/ad/" class="service-card">
+        <a href="/service/listing-ad/" class="service-card">
           <div class="card-image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service-marketing.jpg" alt="Digital Advertising">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service-listing-ad.jpg" alt="Listing Advertising">
           </div>
           <div class="card-content">
-            <h4 class="card-title">デジタル広告運用</h4>
-            <p class="card-desc">Google、Meta、LINE広告など、主要プラットフォームでの広告運用を最適化。データ分析に基づいた戦略的な運用で、確実な成果を実現します。</p>
+            <h4 class="card-title">リスティング広告運用</h4>
+            <p class="card-desc">Google広告・Yahoo!広告の運用を特に強みとする広告代理店。検索連動型広告で購買意欲の高いユーザーに効果的にアプローチします。</p>
+            <span class="card-arrow">詳細を見る →</span>
+          </div>
+        </a>
+        <a href="/service/sns-ad/" class="service-card">
+          <div class="card-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service-sns-ad.jpg" alt="SNS Advertising">
+          </div>
+          <div class="card-content">
+            <h4 class="card-title">SNS広告運用</h4>
+            <p class="card-desc">Instagram、Facebook、TikTok、LINE広告など、主要SNSプラットフォームでの広告運用を最適化。ターゲット層に効果的にリーチします。</p>
+            <span class="card-arrow">詳細を見る →</span>
+          </div>
+        </a>
+        <a href="/service/display-ad/" class="service-card">
+          <div class="card-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service-display-ad.jpg" alt="Display Advertising">
+          </div>
+          <div class="card-content">
+            <h4 class="card-title">ディスプレイ広告運用</h4>
+            <p class="card-desc">Googleディスプレイネットワーク（GDN）やYahoo!ディスプレイ広告（YDA）で、潜在層へのアプローチとブランド認知を拡大します。</p>
+            <span class="card-arrow">詳細を見る →</span>
+          </div>
+        </a>
+        <a href="/service/video-ad/" class="service-card">
+          <div class="card-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service-video-ad.jpg" alt="Video Advertising">
+          </div>
+          <div class="card-content">
+            <h4 class="card-title">動画広告運用</h4>
+            <p class="card-desc">YouTube広告を中心に、動画コンテンツでビジュアル訴求。ブランドストーリーを効果的に伝え、エンゲージメントを高めます。</p>
             <span class="card-arrow">詳細を見る →</span>
           </div>
         </a>

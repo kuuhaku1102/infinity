@@ -83,6 +83,11 @@ function enqueue_theme_scripts() {
     wp_enqueue_style('lp-creation-css', get_template_directory_uri() . '/assets/css/lp-creation.css');
     wp_enqueue_script('lp-types-toggle', get_template_directory_uri() . '/assets/js/lp-types-toggle.js', array(), null, true);
   }
+  
+  // Listing Ad page CSS
+  if (is_page_template('page-templates/listing-ad.php')) {
+    wp_enqueue_style('listing-ad-css', get_template_directory_uri() . '/assets/css/listing-ad.css');
+  }
 }
 add_action('wp_enqueue_scripts', 'enqueue_theme_scripts');
 

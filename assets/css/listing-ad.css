@@ -1,0 +1,680 @@
+/* ========================================
+   Listing Ad Page Styles
+   ======================================== */
+
+/* Hero Section */
+.listing-ad-hero {
+  position: relative;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 120px 0 80px;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+.listing-ad-hero .hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.listing-ad-hero .hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.listing-ad-hero .hero-badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.listing-ad-hero .hero-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  line-height: 1.3;
+}
+
+.listing-ad-hero .hero-subtitle {
+  font-size: 16px;
+  line-height: 1.8;
+  opacity: 0.95;
+}
+
+/* Section Common Styles */
+.listing-ad-problems,
+.listing-ad-features,
+.listing-ad-our-features,
+.listing-ad-priorities,
+.listing-ad-advantages,
+.listing-ad-methods,
+.listing-ad-results,
+.listing-ad-faq,
+.listing-ad-cta {
+  padding: 80px 0;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 16px;
+  color: #2d3748;
+}
+
+.section-subtitle {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #4a5568;
+}
+
+/* よくあるお悩みセクション */
+.listing-ad-problems {
+  background: #f7fafc;
+}
+
+.problems-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.problems-circle {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.problem-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  color: white;
+  font-weight: 700;
+}
+
+.problem-item {
+  position: absolute;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+  line-height: 1.6;
+  text-align: center;
+  width: 160px;
+}
+
+.problem-1 {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.problem-2 {
+  top: 25%;
+  right: 0;
+}
+
+.problem-3 {
+  bottom: 25%;
+  right: 0;
+}
+
+.problem-4 {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.problem-5 {
+  top: 25%;
+  left: 0;
+}
+
+.problems-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+.problems-list li {
+  font-size: 16px;
+  line-height: 2;
+  color: #2d3748;
+  padding-left: 8px;
+}
+
+.cta-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 16px 40px;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+/* リスティング広告の特徴セクション */
+.listing-ad-features {
+  background: white;
+}
+
+.feature-item {
+  margin-bottom: 60px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feature-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #2d3748;
+  padding-left: 20px;
+  border-left: 4px solid #667eea;
+}
+
+.feature-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.feature-text h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  color: #2d3748;
+}
+
+.feature-text p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #4a5568;
+  margin-bottom: 16px;
+}
+
+.feature-visual {
+  background: #f7fafc;
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.search-share-chart h5 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  text-align: center;
+  color: #2d3748;
+}
+
+.chart-item {
+  margin-bottom: 20px;
+}
+
+.chart-label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #2d3748;
+}
+
+.chart-bar {
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.feature-card {
+  background: #f7fafc;
+  padding: 30px;
+  border-radius: 16px;
+}
+
+.feature-card h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #2d3748;
+}
+
+.feature-card p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #4a5568;
+}
+
+/* InfinityDesign運用の特徴セクション */
+.listing-ad-our-features {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  text-align: center;
+}
+
+.listing-ad-our-features .section-title {
+  color: white;
+}
+
+.our-features-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.features-heading {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.features-subheading {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 32px;
+  opacity: 0.95;
+}
+
+.features-text {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+  opacity: 0.95;
+}
+
+/* 優先する対応事項セクション */
+.listing-ad-priorities {
+  background: white;
+}
+
+.priorities-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.priority-card {
+  background: white;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.priority-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.priority-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.priority-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #2d3748;
+}
+
+.priority-subtitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: #667eea;
+  margin-bottom: 16px;
+}
+
+.priority-desc {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #4a5568;
+}
+
+/* 提供する優位性セクション */
+.listing-ad-advantages {
+  background: #f7fafc;
+}
+
+.advantages-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.advantage-card {
+  background: white;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.advantage-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.advantage-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.advantage-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #2d3748;
+}
+
+.advantage-subtitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: #667eea;
+  margin-bottom: 16px;
+}
+
+.advantage-desc {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #4a5568;
+}
+
+/* 運用手法の事例セクション */
+.listing-ad-methods {
+  background: white;
+}
+
+.methods-section {
+  max-width: 1000px;
+  margin: 0 auto 60px;
+}
+
+.methods-heading {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #2d3748;
+  padding-left: 20px;
+  border-left: 4px solid #667eea;
+}
+
+.method-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.method-item {
+  background: #f7fafc;
+  padding: 28px;
+  border-radius: 12px;
+}
+
+.method-item h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #2d3748;
+}
+
+.method-item p {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #4a5568;
+}
+
+/* 支援実績セクション */
+.listing-ad-results {
+  background: #f7fafc;
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto 60px;
+}
+
+.result-card {
+  background: white;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.result-label {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.result-company {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #2d3748;
+}
+
+.result-desc {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #4a5568;
+}
+
+.results-industries {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.results-industries h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #2d3748;
+}
+
+.industries-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.industries-grid span {
+  background: white;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #2d3748;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* よくある質問セクション */
+.listing-ad-faq {
+  background: white;
+}
+
+.faq-list {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  background: #f7fafc;
+  padding: 28px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.faq-question {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #2d3748;
+}
+
+.faq-answer {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #4a5568;
+}
+
+/* お問い合わせCTAセクション */
+.listing-ad-cta {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  text-align: center;
+}
+
+.listing-ad-cta .cta-inner h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.listing-ad-cta .cta-inner p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 32px;
+  opacity: 0.95;
+}
+
+.cta-button-large {
+  display: inline-block;
+  background: white;
+  color: #667eea;
+  padding: 20px 60px;
+  border-radius: 40px;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 24px;
+}
+
+.cta-button-large:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.cta-phone {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .listing-ad-hero .hero-title {
+    font-size: 32px;
+  }
+  
+  .listing-ad-hero .hero-subtitle {
+    font-size: 14px;
+  }
+  
+  .section-title {
+    font-size: 28px;
+  }
+  
+  .section-subtitle {
+    font-size: 16px;
+  }
+  
+  .problems-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .problems-circle {
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+  }
+  
+  .problem-item {
+    width: 120px;
+    padding: 16px;
+    font-size: 11px;
+  }
+  
+  .problem-center {
+    width: 100px;
+    height: 100px;
+    font-size: 36px;
+  }
+  
+  .feature-content,
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .priorities-grid,
+  .advantages-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .results-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .industries-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
