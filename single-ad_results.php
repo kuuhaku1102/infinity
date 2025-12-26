@@ -261,33 +261,100 @@
 .ad-overview-content {
   color: #374151;
   line-height: 1.8;
+  font-size: 1rem;
 }
 
+/* h2スタイル - 大見出し */
 .ad-overview-content h2 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 700;
   color: #1f2937;
-  margin-top: 30px;
-  margin-bottom: 15px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(90deg, #667eea 0%, #764ba2 50%, transparent 50%);
+  border-image-slice: 1;
+  position: relative;
 }
 
+.ad-overview-content h2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  border-radius: 2px;
+}
+
+/* h3スタイル - 中見出し */
 .ad-overview-content h3 {
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   font-weight: 600;
   color: #374151;
-  margin-top: 25px;
-  margin-bottom: 12px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding-left: 16px;
+  border-left: 4px solid #667eea;
+  background: linear-gradient(90deg, rgba(102, 126, 234, 0.05) 0%, transparent 100%);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 0 8px 8px 0;
 }
 
+/* h4スタイル - 小見出し */
+.ad-overview-content h4 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #4b5563;
+  margin-top: 25px;
+  margin-bottom: 12px;
+  padding-left: 12px;
+  position: relative;
+}
+
+.ad-overview-content h4::before {
+  content: '●';
+  position: absolute;
+  left: 0;
+  color: #667eea;
+  font-size: 0.8rem;
+}
+
+/* 段落スタイル */
+.ad-overview-content p {
+  margin-bottom: 16px;
+  line-height: 1.9;
+}
+
+/* 強調テキスト */
+.ad-overview-content strong {
+  color: #667eea;
+  font-weight: 700;
+  background: linear-gradient(180deg, transparent 60%, rgba(102, 126, 234, 0.15) 60%);
+  padding: 2px 4px;
+  border-radius: 2px;
+}
+
+/* リストスタイル */
 .ad-overview-content ul {
   list-style: none;
   padding-left: 0;
+  margin-bottom: 20px;
 }
 
 .ad-overview-content ul li {
-  padding-left: 24px;
-  margin-bottom: 8px;
+  padding-left: 28px;
+  margin-bottom: 10px;
   position: relative;
+  line-height: 1.8;
+  transition: transform 0.2s;
+}
+
+.ad-overview-content ul li:hover {
+  transform: translateX(4px);
 }
 
 .ad-overview-content ul li::before {
@@ -296,6 +363,120 @@
   left: 0;
   color: #667eea;
   font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+
+.ad-overview-content ul li:hover::before {
+  color: #764ba2;
+}
+
+/* ネストされたリスト */
+.ad-overview-content ul ul {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.ad-overview-content ul ul li::before {
+  content: '◦';
+  font-size: 1.2rem;
+}
+
+/* 番号付きリスト */
+.ad-overview-content ol {
+  counter-reset: item;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.ad-overview-content ol li {
+  padding-left: 40px;
+  margin-bottom: 12px;
+  position: relative;
+  line-height: 1.8;
+}
+
+.ad-overview-content ol li::before {
+  content: counter(item);
+  counter-increment: item;
+  position: absolute;
+  left: 0;
+  width: 28px;
+  height: 28px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+/* コードブロック風の引用 */
+.ad-overview-content blockquote {
+  margin: 20px 0;
+  padding: 20px 24px;
+  background: #f9fafb;
+  border-left: 4px solid #667eea;
+  border-radius: 0 8px 8px 0;
+  color: #4b5563;
+  font-style: italic;
+}
+
+/* テーブルスタイル */
+.ad-overview-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.ad-overview-content table th {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.ad-overview-content table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.ad-overview-content table tr:last-child td {
+  border-bottom: none;
+}
+
+.ad-overview-content table tr:hover {
+  background: #f9fafb;
+}
+
+/* リンクスタイル */
+.ad-overview-content a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s;
+}
+
+.ad-overview-content a:hover {
+  color: #764ba2;
+  border-bottom-color: #764ba2;
+}
+
+/* セクション区切り */
+.ad-overview-content hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, transparent 0%, #e5e7eb 20%, #e5e7eb 80%, transparent 100%);
+  margin: 40px 0;
 }
 
 /* PDFダウンロードボタン */
