@@ -821,21 +821,6 @@
         </div>
       </div>
 
-      <!-- レポートPDF -->
-      <div class="ad-card" style="text-align: center;">
-        <h2 class="ad-card-title">レポートPDF</h2>
-        <?php
-        $pdf = get_field('result_pdf');
-        if ($pdf) {
-          echo '<a href="' . esc_url($pdf) . '" target="_blank" rel="noopener" class="ad-pdf-button">';
-          echo '<span class="ad-pdf-icon">📄</span>';
-          echo '<span>PDFレポートを開く</span>';
-          echo '</a>';
-        } else {
-          echo '<p class="ad-no-content">PDFが登録されていません。</p>';
-        }
-        ?>
-      </div>
 
     </div>
 
