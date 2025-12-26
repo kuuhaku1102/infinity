@@ -212,7 +212,7 @@
     </div>
 
     <!-- More View ボタン（モダンなデザイン） -->
-    <div class="more-button-wrapper" data-aos="fade-up">
+    <div class="more-button-wrapper">
       <button class="more-button-modern">
         <span class="button-text">さらに表示</span>
         <span class="button-icon">▼</span>
