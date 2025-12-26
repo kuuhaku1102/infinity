@@ -343,7 +343,7 @@
 }
 
 .ad-creative-image {
-  max-width: 800px;
+  max-width: 600px;
   width: 100%;
   height: auto;
   border-radius: 12px;
