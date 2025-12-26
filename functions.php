@@ -88,6 +88,21 @@ function enqueue_theme_scripts() {
   if (is_page_template('page-templates/listing-ad.php')) {
     wp_enqueue_style('listing-ad-css', get_template_directory_uri() . '/assets/css/listing-ad.css');
   }
+  
+  // SNS Ad page CSS
+  if (is_page_template('page-templates/sns-ad.php')) {
+    wp_enqueue_style('sns-ad-css', get_template_directory_uri() . '/assets/css/sns-ad.css');
+  }
+  
+  // Display Ad page CSS
+  if (is_page_template('page-templates/display-ad.php')) {
+    wp_enqueue_style('display-ad-css', get_template_directory_uri() . '/assets/css/display-ad.css');
+  }
+  
+  // Video Ad page CSS
+  if (is_page_template('page-templates/video-ad.php')) {
+    wp_enqueue_style('video-ad-css', get_template_directory_uri() . '/assets/css/video-ad.css');
+  }
 }
 add_action('wp_enqueue_scripts', 'enqueue_theme_scripts');
 
