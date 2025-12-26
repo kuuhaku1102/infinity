@@ -49,7 +49,7 @@ get_header();
       <div class="service-grid">
         <a href="/websitecreation/" class="service-card">
           <div class="card-image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/corporate-site-service.png?v=1" alt="Web Development">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/corporate-site-service.png?v=<?php echo time(); ?>" alt="Web Development">
           </div>
           <div class="card-content">
             <h4 class="card-title">コーポレートサイト構築</h4>
@@ -59,7 +59,7 @@ get_header();
         </a>
         <a href="/lp/" class="service-card">
           <div class="card-image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/landing-page-service.png?v=1" alt="Landing Page">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/landing-page-service.png?v=<?php echo time(); ?>" alt="Landing Page">
           </div>
           <div class="card-content">
             <h4 class="card-title">ランディングページ制作</h4>
