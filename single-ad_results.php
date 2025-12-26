@@ -343,11 +343,14 @@
 }
 
 .ad-creative-image {
-  max-width: 100%;
+  max-width: 800px;
+  width: 100%;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.15);
   transition: transform 0.3s;
+  margin: 0 auto;
+  display: block;
 }
 
 .ad-creative-image:hover {
@@ -614,17 +617,45 @@
     font-size: 2rem;
   }
   
-  .ad-meta-grid,
-  .ad-stats-grid {
+  .ad-meta-grid {
     grid-template-columns: 1fr;
   }
   
-  .ad-stat-value {
+  /* スマホ表示時の成果指標カードをスマートに */
+  .ad-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  
+  .ad-stat-card {
+    padding: 16px;
+  }
+  
+  .ad-stat-icon {
     font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+  
+  .ad-stat-label {
+    font-size: 0.75rem;
+    margin-bottom: 6px;
+  }
+  
+  .ad-stat-value {
+    font-size: 1.3rem;
+  }
+  
+  .ad-stat-unit {
+    font-size: 0.7rem;
   }
   
   .ad-card {
     padding: 20px;
+  }
+  
+  /* 広告クリエイティブ画像のスマホ表示 */
+  .ad-creative-image {
+    max-width: 100%;
   }
 }
 </style>
