@@ -428,21 +428,21 @@
           <div class="ad-stat-card">
             <div class="ad-stat-icon">👁️</div>
             <div class="ad-stat-label">インプレッション</div>
-            <div class="ad-stat-value"><?php echo number_format(get_field('impressions')); ?></div>
+            <div class="ad-stat-value"><?php echo number_format((float)get_field('impressions')); ?></div>
             <div class="ad-stat-unit">回</div>
           </div>
           
           <div class="ad-stat-card">
             <div class="ad-stat-icon">👆</div>
             <div class="ad-stat-label">クリック</div>
-            <div class="ad-stat-value"><?php echo number_format(get_field('clicks')); ?></div>
+            <div class="ad-stat-value"><?php echo number_format((float)get_field('clicks')); ?></div>
             <div class="ad-stat-unit">回</div>
           </div>
           
           <div class="ad-stat-card">
             <div class="ad-stat-icon">✅</div>
             <div class="ad-stat-label">コンバージョン</div>
-            <div class="ad-stat-value"><?php echo number_format(get_field('conversions')); ?></div>
+            <div class="ad-stat-value"><?php echo number_format((float)get_field('conversions')); ?></div>
             <div class="ad-stat-unit">件</div>
           </div>
           
@@ -477,7 +477,7 @@
           <div class="ad-stat-card">
             <div class="ad-stat-icon">💳</div>
             <div class="ad-stat-label">広告費</div>
-            <div class="ad-stat-value"><?php echo number_format(get_field('cost')); ?></div>
+            <div class="ad-stat-value"><?php echo number_format((float)get_field('cost')); ?></div>
             <div class="ad-stat-unit">円</div>
           </div>
         </div>
