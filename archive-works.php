@@ -281,7 +281,7 @@
     const tabs = document.querySelectorAll('.tab-button');
     const cards = document.querySelectorAll('.works-card-modern');
     const moreButton = document.querySelector('.more-button-modern');
-    const initialDisplay = 10;
+    const initialDisplay = 9;
     
     function updateDisplay(filter) {
       let visibleCount = 0;
@@ -355,10 +355,10 @@
         return card.classList.contains('hidden-card') && matchesFilter;
       });
       
-      // 10個ずつ表示
+      // 9個ずつ表示
       let count = 0;
       hiddenCards.forEach(card => {
-        if (count < 10) {
+        if (count < 9) {
           card.style.display = 'block';
           card.classList.remove('hidden-card');
           card.classList.add('aos-animate');
