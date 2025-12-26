@@ -31,7 +31,7 @@ get_header();
         </p>
       </div>
       <div class="intro-visual">
-        <dotlottie-wc src="https://lottie.host/8dedf270-27e1-432b-a9bd-7efc0be99358/T50RTd8Z3n.lottie" style="width: 100%; height: auto;" speed="1" autoplay loop></dotlottie-wc>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service-hero.png" alt="Strategic Digital Partner" style="width: 100%; height: auto; border-radius: 20px; box-shadow: 0 10px 40px rgba(102, 126, 234, 0.2);">
       </div>
     </div>
   </div>
@@ -49,7 +49,7 @@ get_header();
       <div class="service-grid">
         <a href="/websitecreation/" class="service-card">
           <div class="card-image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service-web-integration.jpg" alt="Web Development">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/web-development.png" alt="Web Development">
           </div>
           <div class="card-content">
             <h4 class="card-title">コーポレートサイト構築</h4>
@@ -59,7 +59,7 @@ get_header();
         </a>
         <a href="/lp/" class="service-card">
           <div class="card-image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service-creative.jpg" alt="Landing Page">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/web-development.png" alt="Landing Page">
           </div>
           <div class="card-content">
             <h4 class="card-title">ランディングページ制作</h4>
@@ -76,7 +76,7 @@ get_header();
       <div class="service-grid">
         <a href="/service/listing-ad/" class="service-card">
           <div class="card-image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service-listing-ad.jpg" alt="Listing Advertising">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/digital-marketing.png" alt="Listing Advertising">
           </div>
           <div class="card-content">
             <h4 class="card-title">リスティング広告運用</h4>
@@ -86,7 +86,7 @@ get_header();
         </a>
         <a href="/service/sns-ad/" class="service-card">
           <div class="card-image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service-sns-ad.jpg" alt="SNS Advertising">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/digital-marketing.png" alt="SNS Advertising">
           </div>
           <div class="card-content">
             <h4 class="card-title">SNS広告運用</h4>
@@ -96,7 +96,7 @@ get_header();
         </a>
         <a href="/service/display-ad/" class="service-card">
           <div class="card-image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service-display-ad.jpg" alt="Display Advertising">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/digital-marketing.png" alt="Display Advertising">
           </div>
           <div class="card-content">
             <h4 class="card-title">ディスプレイ広告運用</h4>
@@ -106,7 +106,7 @@ get_header();
         </a>
         <a href="/service/video-ad/" class="service-card">
           <div class="card-image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service-video-ad.jpg" alt="Video Advertising">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/digital-marketing.png" alt="Video Advertising">
           </div>
           <div class="card-content">
             <h4 class="card-title">動画広告運用</h4>
@@ -116,7 +116,7 @@ get_header();
         </a>
         <a href="/service/seo" class="service-card">
           <div class="card-image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service-consulting.jpg" alt="SEO Strategy">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/digital-marketing.png" alt="SEO Strategy">
           </div>
           <div class="card-content">
             <h4 class="card-title">SEO戦略コンサルティング</h4>
@@ -133,7 +133,7 @@ get_header();
       <div class="service-grid">
         <a href="/service/creative" class="service-card">
           <div class="card-image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service-creative.jpg" alt="Creative Production">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/creative-analytics.png" alt="Creative Production">
           </div>
           <div class="card-content">
             <h4 class="card-title">クリエイティブ制作</h4>
@@ -150,7 +150,7 @@ get_header();
       <div class="service-grid">
         <a href="/data-analytics" class="service-card">
           <div class="card-image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service-consulting.jpg" alt="Analytics Consulting">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/creative-analytics.png" alt="Analytics Consulting">
           </div>
           <div class="card-content">
             <h4 class="card-title">データ分析コンサルティング</h4>

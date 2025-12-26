@@ -185,25 +185,41 @@ body {
 
 .service-card {
   background: #fff;
-  border-radius: 12px;
+  border-radius: 20px;
   overflow: hidden;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   text-decoration: none;
   color: inherit;
   display: flex;
   flex-direction: column;
-  border: 1px solid #e8e8e8;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border: none;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+
+.service-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
 }
 
 .service-card:hover {
-  transform: translateY(-12px);
-  box-shadow: 0 24px 48px rgba(102, 126, 234, 0.15);
-  border-color: #667eea;
+  transform: translateY(-8px);
+  box-shadow: 0 20px 60px rgba(102, 126, 234, 0.2);
+}
+
+.service-card:hover::before {
+  opacity: 1;
 }
 
 .card-image {
-  height: 220px;
+  height: 260px;
   overflow: hidden;
   position: relative;
 }
