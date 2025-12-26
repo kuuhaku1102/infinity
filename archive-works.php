@@ -280,6 +280,45 @@
   document.addEventListener('DOMContentLoaded', function() {
     const tabs = document.querySelectorAll('.tab-button');
     const cards = document.querySelectorAll('.works-card-modern');
+    const moreButton = document.querySelector('.more-button-modern');
+    const initialDisplay = 10;
+    
+    function updateDisplay(filter) {
+      let visibleCount = 0;
+      
+      // カードのフィルタリングと表示制御
+      cards.forEach((card, index) => {
+        const category = card.getAttribute('data-category');
+        const shouldShow = (filter === 'all' || category === filter);
+        
+        if (shouldShow) {
+          if (visibleCount < initialDisplay) {
+            card.style.display = 'block';
+            card.classList.remove('hidden-card');
+            card.classList.add('aos-animate');
+          } else {
+            card.style.display = 'none';
+            card.classList.add('hidden-card');
+          }
+          visibleCount++;
+        } else {
+          card.style.display = 'none';
+          card.classList.remove('hidden-card');
+        }
+      });
+      
+      // More Viewボタンの表示/非表示
+      const hiddenCards = Array.from(cards).filter(card => 
+        card.classList.contains('hidden-card') && 
+        (filter === 'all' || card.getAttribute('data-category') === filter)
+      );
+      
+      if (hiddenCards.length > 0) {
+        moreButton.style.display = 'flex';
+      } else {
+        moreButton.style.display = 'none';
+      }
+    }
     
     tabs.forEach(tab => {
       tab.addEventListener('click', function() {
@@ -289,50 +328,52 @@
         tabs.forEach(t => t.classList.remove('active'));
         this.classList.add('active');
         
-        // カードのフィルタリング
-        cards.forEach(card => {
-          if (filter === 'all' || card.getAttribute('data-category') === filter) {
-            card.style.display = 'block';
-            card.classList.add('aos-animate');
-          } else {
-            card.style.display = 'none';
-          }
-        });
+        // 表示を更新
+        updateDisplay(filter);
       });
     });
+    
+    // 初期表示
+    updateDisplay('all');
   });
 
   // More Viewボタン
   document.addEventListener('DOMContentLoaded', function() {
     const moreButton = document.querySelector('.more-button-modern');
     const cards = document.querySelectorAll('.works-card-modern');
-    const initialDisplay = 6;
-    
-    // 初期表示
-    cards.forEach((card, index) => {
-      if (index >= initialDisplay) {
-        card.style.display = 'none';
-        card.classList.add('hidden-card');
-      }
-    });
-    
-    if (cards.length <= initialDisplay) {
-      moreButton.style.display = 'none';
-    }
+    const tabs = document.querySelectorAll('.tab-button');
     
     moreButton.addEventListener('click', function() {
-      const hiddenCards = document.querySelectorAll('.works-card-modern.hidden-card');
-      let count = 0;
+      // 現在のアクティブタブを取得
+      const activeTab = document.querySelector('.tab-button.active');
+      const currentFilter = activeTab ? activeTab.getAttribute('data-filter') : 'all';
       
+      // 現在のフィルターに一致する非表示カードを取得
+      const hiddenCards = Array.from(cards).filter(card => {
+        const category = card.getAttribute('data-category');
+        const matchesFilter = (currentFilter === 'all' || category === currentFilter);
+        return card.classList.contains('hidden-card') && matchesFilter;
+      });
+      
+      // 10個ずつ表示
+      let count = 0;
       hiddenCards.forEach(card => {
-        if (count < 6) {
+        if (count < 10) {
           card.style.display = 'block';
           card.classList.remove('hidden-card');
+          card.classList.add('aos-animate');
           count++;
         }
       });
       
-      if (document.querySelectorAll('.works-card-modern.hidden-card').length === 0) {
+      // まだ非表示のカードがあるか確認
+      const remainingHidden = Array.from(cards).filter(card => {
+        const category = card.getAttribute('data-category');
+        const matchesFilter = (currentFilter === 'all' || category === currentFilter);
+        return card.classList.contains('hidden-card') && matchesFilter;
+      });
+      
+      if (remainingHidden.length === 0) {
         moreButton.style.display = 'none';
       }
     });
